@@ -17,13 +17,13 @@ def setup_data():
 		if ("Gaze_DataFile.csv" in arg1):
 			gazeData = pd.read_csv(arg1)
 
-			# Translates the label from 'Left' and 'Right' to 0 and 1
-				#Note: double check that 0 is left and 1 is right.
+			# Translates the label from 'Left' and 'Right' to 1 and 0
+				#Note: double check that 1 is left and 0 is right.
 			for x in range(gazeData.shape[0]):
 				if gazeData.iloc[x, -1]=="Left":
-					gazeData.iloc[x, -1] = 0
-				else:
 					gazeData.iloc[x, -1] = 1
+				else:
+					gazeData.iloc[x, -1] = 0
 
 			gazeData = gazeData.iloc[:, 1:]
 
@@ -36,7 +36,7 @@ def setup_data():
 
 	#ends the program if the data is not input correctly.
 	except (ZeroDivisionError, IndexError):
-		print "Error with the input files"
+		print "Error with the input file"
 		quit()
 
 
@@ -101,22 +101,30 @@ def score_individual(data, i,  N):
 	runningTotal = 0
 	for attr in N:
 		runningTotal += data.iloc[i, attr]
+		#print str(i) + ": " +str(int(round(runningTotal/len(N),0)))
 
 	return int(round(runningTotal/len(N),0))
 
 
-#gets the total score inaccuracy for a given set of attributes N
-	#Note: calculates the inaccuracy, which is the wrong way to go about it, according to Hsu
+#gets the total score accuracy for a given set of attributes N. Precision at is the number of instances that will be used to calculate accuracy.
 	#Note: add precision at, where we measure the accuracy at a given number of instances, instead of the total
-def score_total(data, N):
-	wrong = 0.0
-	for x in range(data.shape[0]):
-		result = score_individual(data, x, N)
+def score_total(data, N, precisionAt):
+	accuracyList = []
 
-		if not result == data.iloc[x, -1]:
-			wrong +=1 
+	for precision in precisionAt:
+		accuracy = 0.0
+		for x in range(precision):
+			result = score_individual(data, x, N)
 
-	return (wrong/data.shape[0])
+			if result == data.iloc[x, -1]:
+				accuracy +=1 
+			'''else:
+				print str(x)+": "+str(accuracy)'''
+
+		accuracyList.append(int(round((accuracy/precision)*100 , 0)))
+		#accuracyList.append([accuracy ,int(round((accuracy/precision)*100 , 0))])
+
+	return accuracyList
 	
 
 # predicts gets the label for a given instance. data is the ranked data, i is the particular instance, N is the set of attributes, and cutoff is the point at which we determine 1 or 0 
@@ -149,6 +157,7 @@ def rank_total(data, N, c):
 def main():
 
 	#setup variables
+	precisionAt = [100,200,300]
 	gazeData = setup_data()
 	combos = combinations( range(gazeData.shape[1]-1))
 	rankData = rank_setup(gazeData) 
@@ -157,11 +166,13 @@ def main():
 	#print gazeData
 	#print rankData
 	#print combos
+	#result = score_total(gazeData, [0], precisionAt)
 
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
+		#pass
 		print str(attrs) +": "
-		print "\tScore accuracy: " + str(int(score_total(gazeData, attrs)*100))+"%"
+		print "\tScore accuracy percentages: " + str(score_total(gazeData, attrs, precisionAt))
 		#print "\tRank  accuracy: " + str((1-(rank_total(rankData, attrs, c)))*100)+ "%\n"
 
 
