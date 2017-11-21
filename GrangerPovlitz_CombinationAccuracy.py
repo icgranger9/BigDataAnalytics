@@ -98,30 +98,51 @@ def determinte_c(data):
 
 #predicts gets the label for a given instance. N is a set of arrtibutes for the desired score, data is everything, i is an int for the instance
 def score_individual(data, i,  N):
-	runningTotal = 0
+	runningTotal = 0.0
 	for attr in N:
 		runningTotal += data.iloc[i, attr]
-		#print str(i) + ": " +str(int(round(runningTotal/len(N),0)))
+	
+	#print str(i) + ":\t" + str(int(round(runningTotal/len(N),0))) + "  " + str(data.iloc[i, -1])
 
-	return int(round(runningTotal/len(N),0))
+	return int(round(runningTotal/float(len(N)),0))
+	#return int(runningTotal/len(N))
 
 
 #gets the total score accuracy for a given set of attributes N. Precision at is the number of instances that will be used to calculate accuracy.
-	#Note: add precision at, where we measure the accuracy at a given number of instances, instead of the total
 def score_total(data, N, precisionAt):
 	accuracyList = []
 
+	#sorting data
+	#data= data.sort_values("A")
+
 	for precision in precisionAt:
+		truePositive = 0.0
+		falsePositive =0.0
+		totalPositive = 0.0
+
+		trueNegative = 0.0
+		falseNegative = 0.0
+		
 		accuracy = 0.0
+
 		for x in range(precision):
 			result = score_individual(data, x, N)
+			totalPositive += data.iloc[x, -1] # Not currently used. every time actual value is 1
 
-			if result == data.iloc[x, -1]:
-				accuracy +=1 
-			'''else:
-				print str(x)+": "+str(accuracy)'''
+			if result == data.iloc[x, -1]: #prediction is 1, and actual val is 1
+				accuracy +=1
+				if (result ==1):
+					truePositive +=result
+				else:
+					trueNegative+=1
+			elif (result ==1): #prediction is 1, but actual val is 1
+				falsePositive+=1
+			elif (result ==0):
+				falseNegative+=1
 
-		accuracyList.append(int(round((accuracy/precision)*100 , 0)))
+
+
+		accuracyList.append(["truePositive: " + str(truePositive) +" trueNegative: "+str(trueNegative) + " falsePositive: " + str(falsePositive) +" falseNegative: " + str(falseNegative)])
 		#accuracyList.append([accuracy ,int(round((accuracy/precision)*100 , 0))])
 
 	return accuracyList
@@ -166,12 +187,21 @@ def main():
 	#print gazeData
 	#print rankData
 	#print combos
-	#result = score_total(gazeData, [0], precisionAt)
+	#print c
+
+
+	'''total = 0
+				for i in range(100):
+					result = score_individual(gazeData, i, [0])
+					if (result == gazeData.iloc[i, -1]):
+						total +=1
+			
+				print "Total: " + str(100-total)'''
 
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
-		#pass
-		print str(attrs) +": "
+		pass
+		#print attrs
 		print "\tScore accuracy percentages: " + str(score_total(gazeData, attrs, precisionAt))
 		#print "\tRank  accuracy: " + str((1-(rank_total(rankData, attrs, c)))*100)+ "%\n"
 
