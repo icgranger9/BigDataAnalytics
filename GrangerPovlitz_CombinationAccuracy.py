@@ -86,13 +86,19 @@ def combinations(data):
 	return combos
 
 
-# finds out how many 1s there are, used for rank classification cutoff
-	# Note: may not be needed any more
-def determinte_c(data):
+# finds out how many 1s there are, used for score classification cutoff
+# data: score classification data
+# precision: integer, such as 100, 200, 300
+def determinte_c(data, precision):
     num_ones = 0
-    for attr in range(data.shape[0]):
-        num_ones += data.iloc[attr, -1]
+    num_ones_new = 0
+    # for i in range(data.shape[0]):
+    for i in range(precision):
+		num_ones += data.iloc[i, -1]
+		num_ones_new += score_individual(data, i, [0])
+		# print str(score_individual(data, i, [0]))
 
+    # print str(num_ones) +"\n" + str(num_ones_new)
     return num_ones
 
 
@@ -103,17 +109,6 @@ def score_individual(data, i,  N):
 		runningTotal += data.iloc[i, attr]
 	
 	#print str(i) + ":\t" + str(int(round(runningTotal/len(N),0))) + "  " + str(data.iloc[i, -1])
-
-	'''if(runningTotal/len(N) >= .56):
-					return 1
-				else:
-					return 0'''
-
-	'''if((runningTotal/float(len(N)) > 0) and (runningTotal/float(len(N)) < 1)):
-					#print str((i+1)%60)+": "+str(int(round(1- (runningTotal/float(len(N))),0)))
-					return int(round(1- (runningTotal/float(len(N))),0))
-				else:
-					return int(runningTotal/float(len(N)))'''
 
 	return int(round(runningTotal/float(len(N)),0))
 	#return int(runningTotal/len(N))
@@ -154,7 +149,8 @@ def score_total(data, N, precisionAt):
 			#print str(data.iloc[x, 0]) 
 
 		#accuracyList.append(["truePositive: " + str(truePositive) +" trueNegative: "+str(trueNegative) + " falsePositive: " + str(falsePositive) +" falseNegative: " + str(falseNegative)])
-		accuracyList.append([accuracy, int(round((accuracy/precision)*100 , 1))])
+		#accuracyList.append([accuracy, int(round((accuracy/precision)*100 , 0))])
+		accuracyList.append(int(round((accuracy/precision)*100 , 0)))
 
 	return accuracyList
 	
@@ -166,24 +162,40 @@ def rank_individual(data, i, N, cutoff):
 		rankTotal += data.iloc[i, attr]
 	
 	#Note: doesn't rank total need to be divided by the number of attributes?
-	if rankTotal < cutoff:
+	if rankTotal <= cutoff:
 		return 0
 	else:
 		return 1
 
-
 #gets the total rank inaccuracy for a given set of attributes N
 	#Note: calculates the inaccuracy, which is the wrong way to go about it, according to Hsu
 	#Note: add precision at, where we measure the accuracy at a given number of instances, instead of the total
-def rank_total(data, N, c):
-	wrong = 0.0
-	for x in range(data.shape[0]):
-		result = rank_individual(data, x, N, c)
-		if not result == data.iloc[x, -1]:
-			wrong +=1 
+def rank_total(data, N, c, precisionAt):
+	accuracyList = []
+	for precision in precisionAt:
+		accuracy = 0.0
+		for x in range(precision):
+			result = rank_individual(data, x, N, c)
+			if result == data.iloc[x, -1]:
+				accuracy +=1
+		accuracyList.append(int(round((accuracy/precision)*100 , 0)))
 
-	#shouldn't hardcode this number. (c*100), But that may be wrong after we redo rank_total.
-	return (wrong/36300)
+
+	return accuracyList
+
+
+def rank_total_revised(scoresData, ranksData, N, precisionAt):
+	accuracyList = []
+	for precision in precisionAt:
+		accuracy = 0.0
+		cutoff = determinte_c(scoresData, precision)
+		#print "cutoff for precision " + str(precision) + " is " + str(cutoff)
+		for x in range(precision):
+			result = rank_individual(ranksData, x, N, cutoff)
+			if result == ranksData.iloc[x, -1]:
+				accuracy +=1
+		accuracyList.append(int(round((accuracy/precision)*100 , 0)))
+	return accuracyList
 
 
 def main():
@@ -193,7 +205,7 @@ def main():
 	gazeData = setup_data()
 	combos = combinations( range(gazeData.shape[1]-1))
 	rankData = rank_setup(gazeData) 
-	c = determinte_c(rankData)
+	#c = determinte_c(rankData)
 
 	#print gazeData
 	#print rankData
@@ -201,14 +213,14 @@ def main():
 	#print c
 
 
-	print "\n"+str(score_total(gazeData, [0],[100, 200]))
+	#print "\n"+str(score_total(gazeData, [0],[100, 200]))
 
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
-		pass
+		#pass
 		#print attrs
 		#print "\tScore accuracy percentages: " + str(score_total(gazeData, attrs, precisionAt))
-		#print "\tRank  accuracy: " + str((1-(rank_total(rankData, attrs, c)))*100)+ "%\n"
+		print str(rank_total_revised(gazeData, rankData, attrs, [300]))
 
 
 
