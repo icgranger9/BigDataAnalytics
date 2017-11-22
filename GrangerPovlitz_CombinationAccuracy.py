@@ -104,6 +104,17 @@ def score_individual(data, i,  N):
 	
 	#print str(i) + ":\t" + str(int(round(runningTotal/len(N),0))) + "  " + str(data.iloc[i, -1])
 
+	'''if(runningTotal/len(N) >= .56):
+					return 1
+				else:
+					return 0'''
+
+	'''if((runningTotal/float(len(N)) > 0) and (runningTotal/float(len(N)) < 1)):
+					#print str((i+1)%60)+": "+str(int(round(1- (runningTotal/float(len(N))),0)))
+					return int(round(1- (runningTotal/float(len(N))),0))
+				else:
+					return int(runningTotal/float(len(N)))'''
+
 	return int(round(runningTotal/float(len(N)),0))
 	#return int(runningTotal/len(N))
 
@@ -140,10 +151,10 @@ def score_total(data, N, precisionAt):
 			elif (result ==0):
 				falseNegative+=1
 
+			#print str(data.iloc[x, 0]) 
 
-
-		accuracyList.append(["truePositive: " + str(truePositive) +" trueNegative: "+str(trueNegative) + " falsePositive: " + str(falsePositive) +" falseNegative: " + str(falseNegative)])
-		#accuracyList.append([accuracy ,int(round((accuracy/precision)*100 , 0))])
+		#accuracyList.append(["truePositive: " + str(truePositive) +" trueNegative: "+str(trueNegative) + " falsePositive: " + str(falsePositive) +" falseNegative: " + str(falseNegative)])
+		accuracyList.append([accuracy, int(round((accuracy/precision)*100 , 1))])
 
 	return accuracyList
 	
@@ -190,19 +201,13 @@ def main():
 	#print c
 
 
-	'''total = 0
-				for i in range(100):
-					result = score_individual(gazeData, i, [0])
-					if (result == gazeData.iloc[i, -1]):
-						total +=1
-			
-				print "Total: " + str(100-total)'''
+	print "\n"+str(score_total(gazeData, [0],[100, 200]))
 
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
 		pass
 		#print attrs
-		print "\tScore accuracy percentages: " + str(score_total(gazeData, attrs, precisionAt))
+		#print "\tScore accuracy percentages: " + str(score_total(gazeData, attrs, precisionAt))
 		#print "\tRank  accuracy: " + str((1-(rank_total(rankData, attrs, c)))*100)+ "%\n"
 
 
