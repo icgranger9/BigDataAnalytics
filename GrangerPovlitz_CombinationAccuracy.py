@@ -22,6 +22,7 @@ def setup_data():
 			for x in range(gazeData.shape[0]):
 				if gazeData.iloc[x, -1]=="Left":
 					gazeData.iloc[x, -1] = 1
+
 				else:
 					gazeData.iloc[x, -1] = 0
 
@@ -89,13 +90,11 @@ def combinations(data):
 # finds out how many 1s there are, used for score classification cutoff
 # data: score classification data
 # precision: integer, such as 100, 200, 300
-def determinte_c(data, precision):
+def determinte_c(data):
     num_ones = 0
-    num_ones_new = 0
     # for i in range(data.shape[0]):
-    for i in range(precision):
+    for i in range(data.shape[0]):
 		num_ones += data.iloc[i, -1]
-		num_ones_new += score_individual(data, i, [0])
 		# print str(score_individual(data, i, [0]))
 
     # print str(num_ones) +"\n" + str(num_ones_new)
@@ -107,10 +106,22 @@ def score_individual(data, i,  N):
 	runningTotal = 0.0
 	for attr in N:
 		runningTotal += data.iloc[i, attr]
+		'''if ((data.iloc[i, attr]==0) or (data.iloc[i, attr]==1)):
+			runningTotal += data.iloc[i, attr]
+		else:
+			runningTotal += (1-data.iloc[i, attr])'''
 	
 	#print str(i) + ":\t" + str(int(round(runningTotal/len(N),0))) + "  " + str(data.iloc[i, -1])
 
-	return int(round(runningTotal/float(len(N)),0))
+	#c = determinte_c(data)
+	#print (runningTotal/len(N))
+	if(runningTotal/len(N) >= (363/float(data.shape[0]))):
+		return 1
+	else:
+		return 0
+	#print runningTotal/len(N)
+	#return runningTotal/len(N)
+
 	#return int(runningTotal/len(N))
 
 
@@ -122,35 +133,20 @@ def score_total(data, N, precisionAt):
 	#data= data.sort_values("A")
 
 	for precision in precisionAt:
-		truePositive = 0.0
-		falsePositive =0.0
-		totalPositive = 0.0
-
-		trueNegative = 0.0
-		falseNegative = 0.0
 		
 		accuracy = 0.0
 
 		for x in range(precision):
 			result = score_individual(data, x, N)
-			totalPositive += data.iloc[x, -1] # Not currently used. every time actual value is 1
 
 			if result == data.iloc[x, -1]: #prediction is 1, and actual val is 1
 				accuracy +=1
-				if (result ==1):
-					truePositive +=result
-				else:
-					trueNegative+=1
-			elif (result ==1): #prediction is 1, but actual val is 1
-				falsePositive+=1
-			elif (result ==0):
-				falseNegative+=1
 
 			#print str(data.iloc[x, 0]) 
 
-		#accuracyList.append(["truePositive: " + str(truePositive) +" trueNegative: "+str(trueNegative) + " falsePositive: " + str(falsePositive) +" falseNegative: " + str(falseNegative)])
+		#accuracyList.append(int(round((accuracy/precision)*100 , 0)))
 		#accuracyList.append([accuracy, int(round((accuracy/precision)*100 , 0))])
-		accuracyList.append(int(round((accuracy/precision)*100 , 0)))
+		accuracyList.append((accuracy/precision))
 
 	return accuracyList
 	
@@ -213,14 +209,15 @@ def main():
 	#print c
 
 
-	#print "\n"+str(score_total(gazeData, [0],[100, 200]))
+	print "\n"+str(score_total(gazeData, [0],[100, 200, 300]))
+	print ""+str(score_total(gazeData, [1],[100, 200, 300]))
 
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
-		#pass
+		pass
 		#print attrs
-		#print "\tScore accuracy percentages: " + str(score_total(gazeData, attrs, precisionAt))
-		print str(rank_total_revised(gazeData, rankData, attrs, [300]))
+		#print str(attrs)+" accuracy percentages: \t" + str(score_total(gazeData, attrs, precisionAt))
+		#print str(rank_total_revised(gazeData, rankData, attrs, precisionAt))
 
 
 
