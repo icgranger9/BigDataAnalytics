@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd 
 import itertools
 import sys
-#import copy
 
 #our functions from other files
 import GrangerPovlitz_Score as scr
@@ -61,22 +60,14 @@ def main():
 	gazeData = setup_data()
 	combos = combinations( range(gazeData.shape[1]-1))
 	rankData = rnk.rank_setup(gazeData) 
-	#c = determinte_c(rankData)
-
-	#print gazeData
-	#print rankData
-	#print combos
-	#print c
 
 
-	#print "\n"+str(score_total(gazeData, [0],[100, 200]))
 
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
-		#pass
-		#print attrs
+		print attrs
 		print "\tScore accuracy percentages: " + str(scr.score_total(gazeData, attrs, precisionAt))
-		#print str(rnk.rank_total_revised(gazeData, rankData, attrs, [300]))
+		print "\tRank accuracy percentages: " + str(rnk.rank_total(gazeData, rankData, attrs, precisionAt))
 
 
 
