@@ -66,7 +66,7 @@ def main():
 	for attrs in combos:
 		print attrs
 		print "\tScore accuracy percentages: " + str(scr.score_total(gazeData, attrs, precisionAt))
-		print "\tRank accuracy percentages: " + str(rnk.rank_total(gazeData, rankData, attrs, precisionAt))
+		print "\tRank accuracy percentages:  " + str(rnk.rank_total(gazeData, rankData, attrs, precisionAt))
 
 
 if __name__ == '__main__':
