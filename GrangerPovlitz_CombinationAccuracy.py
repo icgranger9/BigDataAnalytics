@@ -23,6 +23,7 @@ def setup_data():
 			for x in range(gazeData.shape[0]):
 				if gazeData.iloc[x, -1]=="Left":
 					gazeData.iloc[x, -1] = 1
+
 				else:
 					gazeData.iloc[x, -1] = 0
 
@@ -61,13 +62,20 @@ def main():
 	combos = combinations( range(gazeData.shape[1]-1))
 	rankData = rnk.rank_setup(gazeData) 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 53141dee646bc89ded8074b6807ef38e2e668e47
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
 		print attrs
 		print "\tScore accuracy percentages: " + str(scr.score_total(gazeData, attrs, precisionAt))
 		print "\tRank accuracy percentages: " + str(rnk.rank_total(gazeData, rankData, attrs, precisionAt))
+<<<<<<< HEAD
+=======
+
+>>>>>>> 53141dee646bc89ded8074b6807ef38e2e668e47
 
 
 

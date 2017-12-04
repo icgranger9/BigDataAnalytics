@@ -59,24 +59,9 @@ def rank_individual(data, i, N, cutoff):
 	else:
 		return 1
 
-#gets the total rank inaccuracy for a given set of attributes N
-	#Note: calculates the inaccuracy, which is the wrong way to go about it, according to Hsu
-	#Note: add precision at, where we measure the accuracy at a given number of instances, instead of the total
-def rank_total(data, N, c, precisionAt):
-	accuracyList = []
-	for precision in precisionAt:
-		accuracy = 0.0
-		for x in range(precision):
-			result = rank_individual(data, x, N, c)
-			if result == data.iloc[x, -1]:
-				accuracy +=1
-		accuracyList.append(int(round((accuracy/precision)*100 , 0)))
 
 
-	return accuracyList
-
-
-def rank_total_revised(scoresData, ranksData, N, precisionAt):
+def rank_total(scoresData, ranksData, N, precisionAt):
 	accuracyList = []
 	for precision in precisionAt:
 		accuracy = 0.0
