@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import itertools
 import sys
+from scipy import stats
 
 #our functions from other files
 import GrangerPovlitz_Score as scr
@@ -61,6 +62,18 @@ def main():
 	gazeData = setup_data()
 	combos = combinations( range(gazeData.shape[1]-1))
 	rankData = rnk.rank_setup()
+	# print "col me on ur cl ph:"
+	# print gazeData.iloc[:,0].shape[1]
+    #
+	# return 0
+
+	for attr1 in combos:
+		for attr2 in combos:
+			if len(attr1) > 1 or len(attr2) > 1:
+				return 0
+			print "Diversity between " + str(attr1) + " and " + str(attr2) + " is " + str(stats.ks_2samp(gazeData.iloc[:,attr1[0]].values, gazeData.iloc[:,attr2[0]].values))
+
+	1/0
 
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
