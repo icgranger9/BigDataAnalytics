@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd 
+import pandas as pd
 import itertools
 import sys
 
@@ -60,13 +60,14 @@ def main():
 	precisionAt = [100,200,300]
 	gazeData = setup_data()
 	combos = combinations( range(gazeData.shape[1]-1))
-	rankData = rnk.rank_setup(gazeData) 
+	rankData = rnk.rank_setup()
 
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
-		print attrs
+		c = rnk.determine_c(gazeData, attrs)
+		print attrs + ", c: " + str(c)
 		print "\tScore accuracy percentages: " + str(scr.score_total(gazeData, attrs, precisionAt))
-		print "\tRank accuracy percentages:  " + str(rnk.rank_total(gazeData, rankData, attrs, precisionAt))
+		print "\tRank accuracy percentages:  " + str(rnk.rank_total(gazeData, rankData, attrs, precisionAt, c))
 
 
 if __name__ == '__main__':
