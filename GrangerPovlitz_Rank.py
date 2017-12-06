@@ -23,7 +23,8 @@ def rank_individual(data, i, N, rankData, cutoff):
 	for attr in N:
 		iRank += rankData.iloc[i, attr]
 	#print "iRank, cutoff: " + str(iRank) + ",\t" + str(cutoff);
-	if iRank < (720 - cutoff): # TODO: remove hardcoding 720
+	numElements = 720 * len(N)
+	if iRank < (numElements - cutoff): # TODO: remove hardcoding 720
 		return 0
 	else:
 		return 1
