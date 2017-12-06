@@ -65,15 +65,12 @@ def main():
 	# print gazeData.iloc[:,0].shape[1]
     #
 	# return 0
-
-	for attr1 in combos:
-		for attr2 in combos:
-			if len(attr1) > 1 or len(attr2) > 1:
-				return 0
-			print "Diversity between " + str(attr1) + " and " + str(attr2) + " is " + str(stats.ks_2samp(gazeData.iloc[:,attr1[0]].values, gazeData.iloc[:,attr2[0]].values))
-
-	1/0
-
+	singlecombos = [0,1,2,3,4]
+	for attr1 in singlecombos:
+		for attr2 in singlecombos:
+			print "Diversity between " + str(attr1) + " and " + str(attr2) + " is " + str(stats.ks_2samp(gazeData.iloc[:,attr1].values, gazeData.iloc[:,attr2].values)[0])
+		print ""
+	print ""
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
 		print attrs
