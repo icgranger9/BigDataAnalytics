@@ -29,9 +29,10 @@ def rank_individual(data, i, N, rankData, cutoff):
 	else:
 		return 1
 
-def rank_total(scoresData, ranksData, N, precisionAt, cP):
+def rank_total(scoresData, ranksData, N, precisionAt):
 	accuracyList = []
-	c = cP
+	c = determine_c(scoresData, N)
+
 	for precision in precisionAt:
 		accuracy = 0.0
 		# if debug:

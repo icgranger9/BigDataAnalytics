@@ -64,10 +64,9 @@ def main():
 
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
-		c = rnk.determine_c(gazeData, attrs)
 		print attrs
 		print "\tScore accuracy percentages: " + str(scr.score_total(gazeData, attrs, precisionAt))
-		print "\tRank accuracy percentages:  " + str(rnk.rank_total(gazeData, rankData, attrs, precisionAt, c))
+		print "\tRank accuracy percentages:  " + str(rnk.rank_total(gazeData, rankData, attrs, precisionAt))
 
 
 if __name__ == '__main__':
