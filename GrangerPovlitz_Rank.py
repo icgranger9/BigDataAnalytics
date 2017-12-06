@@ -1,5 +1,4 @@
 import copy
-import numpy as np
 import pandas as pd
 import itertools
 import sys
@@ -15,36 +14,37 @@ def determine_c(data, N):
 	cutoff = 0
 	for attr in N:
 		for i in range(data.shape[0]):
-			cutoff += scr.score_individual(data, i, N)
+			cutoff += scr.score_individual(data, i, N) #why individual and not label?
 	return cutoff
 
-def rank_individual(data, i, N, rankData, cutoff):
+def rank_individual(rankData, i, N, cutoff):
 	iRank = 0
 	for attr in N:
 		iRank += rankData.iloc[i, attr]
 	#print "iRank, cutoff: " + str(iRank) + ",\t" + str(cutoff);
-	numElements = 720 * len(N)
-	if iRank < (numElements - cutoff): # TODO: remove hardcoding 720
-		return 0
-	else:
-		return 1
 
-def rank_total(scoresData, ranksData, N, precisionAt):
+	numElements = rankData.shape[0] * len(N)
+	return int(iRank >= (numElements - cutoff))
+
+
+def rank_total(scoreData, rankData, N, precisionAt):
 	accuracyList = []
-	c = determine_c(scoresData, N)
+	c = determine_c(scoreData, N)
 
 	for precision in precisionAt:
 		accuracy = 0.0
 		# if debug:
 		# 	print "cutoff for precision " + str(precision) + " is " + str(cutoff)
 		for x in range(precision):
-			result = rank_individual(scoresData, x, N, ranksData, c)
-			if result != scr.score_individual(scoresData, x, N):
+			result = rank_individual(rankData, x, N, c)
+			if result != scr.score_individual(scoreData, x, N):
 				pass
-				# print "inconsistency at x: " + str(x) + "\tvalue: " + str(scoresData.iloc[x, N[0]]) + "\tranked: " + str(int(ranksData.iloc[x, N[0]])) + "\ttruth: " + str(ranksData.iloc[x, -1])
-			if result == ranksData.iloc[x, -1]:
+				# print "inconsistency at x: " + str(x) + "\tvalue: " + str(scoreData.iloc[x, N[0]]) + "\tranked: " + str(int(rankData.iloc[x, N[0]])) + "\ttruth: " + str(rankData.iloc[x, -1])
+			if result == rankData.iloc[x, -1]:
 				# print "cx",
 				accuracy +=1
-				# print "i:\t" + str(x) + "\tscore: " + str(scoresData.iloc[x, N[0]]) + "\tprecision: " + str(precision) + "\tRK"
+				# print "i:\t" + str(x) + "\tscore: " + str(scoreData.iloc[x, N[0]]) + "\tprecision: " + str(precision) + "\tRK"
+		
 		accuracyList.append((round(accuracy/precision*100, 2)))
+
 	return accuracyList
