@@ -46,5 +46,5 @@ def rank_total(scoresData, ranksData, N, precisionAt):
 				# print "cx",
 				accuracy +=1
 				# print "i:\t" + str(x) + "\tscore: " + str(scoresData.iloc[x, N[0]]) + "\tprecision: " + str(precision) + "\tRK"
-		accuracyList.append(int(round(accuracy/precision*100, 0)))
+		accuracyList.append((round(accuracy/precision*100, 2)))
 	return accuracyList

@@ -20,6 +20,6 @@ def score_total(data, N, precisionAt):
 			if (result == data.iloc[i, -1]):
 				accuracy+=1
 
-		accuracyList.append(int(round((accuracy/precision)*100, 0)))
+		accuracyList.append((round((accuracy/precision)*100, 2)))
 
 	return accuracyList
