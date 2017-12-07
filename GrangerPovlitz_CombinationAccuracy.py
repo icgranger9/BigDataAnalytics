@@ -65,17 +65,18 @@ def main():
 	# print gazeData.iloc[:,0].shape[1]
     #
 	# return 0
-	singlecombos = [0,1,2,3,4]
-	for attr1 in singlecombos:
-		for attr2 in singlecombos:
-			print "Diversity between " + str(attr1) + " and " + str(attr2) + " is " + str(stats.ks_2samp(gazeData.iloc[:,attr1].values, gazeData.iloc[:,attr2].values)[0])
-		print ""
-	print ""
+	'''singlecombos = [0,1,2,3,4]
+				for attr1 in singlecombos:
+					for attr2 in singlecombos:
+						print "Diversity between " + str(attr1) + " and " + str(attr2) + " is " + str(stats.ks_2samp(gazeData.iloc[:,attr1].values, gazeData.iloc[:,attr2].values)[0])
+					print ""
+				print ""'''
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in combos:
-		print attrs
+		print map(lambda x: chr(x+65), attrs)
 		print "\tScore accuracy percentages: " + str(scr.score_total(gazeData, attrs, precisionAt))
-		print "\tRank accuracy percentages:  " + str(rnk.rank_total(gazeData, rankData, attrs, precisionAt))
+		print "\tRank  accuracy percentages: " + str(rnk.rank_total(gazeData, rankData, attrs, precisionAt))
+		print 
 
 
 if __name__ == '__main__':

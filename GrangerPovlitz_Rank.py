@@ -24,6 +24,7 @@ def rank_individual(rankData, i, N, cutoff):
 	#print "iRank, cutoff: " + str(iRank) + ",\t" + str(cutoff);
 
 	numElements = rankData.shape[0] * len(N)
+
 	return int(iRank >= (numElements - cutoff))
 
 
@@ -37,12 +38,14 @@ def rank_total(scoreData, rankData, N, precisionAt):
 		# 	print "cutoff for precision " + str(precision) + " is " + str(cutoff)
 		for x in range(precision):
 			result = rank_individual(rankData, x, N, c)
+
 			if result != scr.score_individual(scoreData, x, N):
 				pass
 				# print "inconsistency at x: " + str(x) + "\tvalue: " + str(scoreData.iloc[x, N[0]]) + "\tranked: " + str(int(rankData.iloc[x, N[0]])) + "\ttruth: " + str(rankData.iloc[x, -1])
-			if result == rankData.iloc[x, -1]:
-				# print "cx",
+
+			if result == rankData.iloc[x, -1]:	
 				accuracy +=1
+				# print "cx",
 				# print "i:\t" + str(x) + "\tscore: " + str(scoreData.iloc[x, N[0]]) + "\tprecision: " + str(precision) + "\tRK"
 		
 		accuracyList.append((round(accuracy/precision*100, 2)))
