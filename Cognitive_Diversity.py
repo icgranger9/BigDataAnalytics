@@ -14,9 +14,10 @@ def calculateDiversity(data, attrsA, attrsB):
         bMax = data.iloc[0, attrsB[0]]
         bMin = bMax
         bTempSum = 0.0
-
+        
         for n in attrsA:
             aTempSum += data.iloc[i, n]
+
         aSum += aTempSum
         aMax = max(aTempSum, aMax)
         aMin = min(aTempSum, aMax)

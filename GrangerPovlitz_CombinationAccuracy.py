@@ -48,6 +48,7 @@ def main():
 	singlecombos = [0,1,2,3,4]
 	for attr1 in combos:
 		diversity_sum = 0.0
+
 		for attr2 in combos:
 			if attr1 == attr2:
 				continue
