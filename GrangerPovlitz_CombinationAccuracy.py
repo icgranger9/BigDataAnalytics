@@ -5,7 +5,7 @@ from scipy import stats
 
 #our functions from other files
 import GrangerPovlitz_Combination as cmb
-
+import Cognitive_Diversity as cogdiv
 
 # sets up a pandas dataframe with the gaze data, based on command line inputs.
 def setup_data():
@@ -44,23 +44,23 @@ def main():
 	precisionAt = [100,200,300]
 	gazeData, rankData = setup_data()
 	combos = combinations( range(gazeData.shape[1]-1))
-	
-	#print "col me on ur cl ph:"
-	# print gazeData.iloc[:,0].shape[1]
-    #
-	# return 0
-	'''singlecombos = [0,1,2,3,4]
-				for attr1 in singlecombos:
-					for attr2 in singlecombos:
-						print "Diversity between " + str(attr1) + " and " + str(attr2) + " is " + str(stats.ks_2samp(gazeData.iloc[:,attr1].values, gazeData.iloc[:,attr2].values)[0])
-					print ""
-				print ""'''
+
+	singlecombos = [0,1,2,3,4]
+	for attr1 in combos:
+		diversity_sum = 0.0
+		for attr2 in combos:
+			if attr1 == attr2:
+				continue
+			#print "Score diversity between " + str(attr1) + " and " + str(attr2) + " is " + str(cogdiv.calculateDiversity(gazeData, attr1, attr2))
+			diversity_sum += cogdiv.calculateDiversity(gazeData, attr1, attr2)
+		print "Score diversity of " + str(attr1) + " against all other attribute combinations is " + str(round(diversity_sum, 2))
+	print ""
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in [[2]]:
 		print map(lambda x: chr(x+65), attrs)
 		print "\tScore combination accuracy percentages: " + str(cmb.accuracy(gazeData, attrs, precisionAt))
 		print "\tRank  combination accuracy percentages: " + str(cmb.accuracy(rankData, attrs, precisionAt))
-		print 
+		print
 
 
 if __name__ == '__main__':
