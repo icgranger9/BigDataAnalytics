@@ -4,8 +4,7 @@ import sys
 from scipy import stats
 
 #our functions from other files
-import GrangerPovlitz_Score as scr
-import GrangerPovlitz_Rank as rnk
+import GrangerPovlitz_Combination as cmb
 
 
 # sets up a pandas dataframe with the gaze data, based on command line inputs.
@@ -60,8 +59,9 @@ def main():
 	precisionAt = [100,200,300]
 	gazeData = setup_data()
 	combos = combinations( range(gazeData.shape[1]-1))
-	rankData = rnk.rank_setup()
-	# print "col me on ur cl ph:"
+	#rankData = rnk.rank_setup()
+	
+	#print "col me on ur cl ph:"
 	# print gazeData.iloc[:,0].shape[1]
     #
 	# return 0
@@ -72,10 +72,10 @@ def main():
 					print ""
 				print ""'''
 	# runs score and rank total for each combinations, and neatly prints out the result.
-	for attrs in combos:
+	for attrs in [[0]]:
 		print map(lambda x: chr(x+65), attrs)
-		print "\tScore accuracy percentages: " + str(scr.score_total(gazeData, attrs, precisionAt))
-		print "\tRank  accuracy percentages: " + str(rnk.rank_total(gazeData, rankData, attrs, precisionAt))
+		print "\tScore combination accuracy percentages: " + str(cmb.accuracy(gazeData, attrs, precisionAt))
+		#print "\tRank  combination accuracy percentages: " + str(cmb.accuracy(rankData, attrs, precisionAt))
 		print 
 
 
