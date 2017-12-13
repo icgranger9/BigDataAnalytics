@@ -1,0 +1,1022 @@
+Cog diversity single max diff between [0] and [1] is 0.539876352
+Cog diversity single max diff between [0] and [2] is 0.571428571
+Cog diversity single max diff between [0] and [3] is 0.630394626
+Cog diversity single max diff between [0] and [4] is 0.56097561
+Cog diversity single max diff between [0] and [0, 1] is 1.0
+Cog diversity single max diff between [0] and [0, 2] is 1.0
+Cog diversity single max diff between [0] and [0, 3] is 1.0
+Cog diversity single max diff between [0] and [0, 4] is 1.0
+Cog diversity single max diff between [0] and [1, 2] is 0.539876352
+Cog diversity single max diff between [0] and [1, 3] is 0.539876352
+Cog diversity single max diff between [0] and [1, 4] is 0.539876352
+Cog diversity single max diff between [0] and [2, 3] is 0.571428571
+Cog diversity single max diff between [0] and [2, 4] is 0.571428571
+Cog diversity single max diff between [0] and [3, 4] is 0.531821998
+Cog diversity single max diff between [0] and [0, 1, 2] is 1.0
+Cog diversity single max diff between [0] and [0, 1, 3] is 1.0
+Cog diversity single max diff between [0] and [0, 1, 4] is 1.0
+Cog diversity single max diff between [0] and [0, 2, 3] is 1.0
+Cog diversity single max diff between [0] and [0, 2, 4] is 1.0
+Cog diversity single max diff between [0] and [0, 3, 4] is 1.0
+Cog diversity single max diff between [0] and [1, 2, 3] is 0.539876352
+Cog diversity single max diff between [0] and [1, 2, 4] is 0.539876352
+Cog diversity single max diff between [0] and [1, 3, 4] is 0.539876352
+Cog diversity single max diff between [0] and [2, 3, 4] is 0.571428571
+Cog diversity single max diff between [0] and [0, 1, 2, 3] is 1.0
+Cog diversity single max diff between [0] and [0, 1, 2, 4] is 1.0
+Cog diversity single max diff between [0] and [0, 1, 3, 4] is 1.0
+Cog diversity single max diff between [0] and [0, 2, 3, 4] is 1.0
+Cog diversity single max diff between [0] and [1, 2, 3, 4] is 0.539876352
+Cog diversity single max diff between [0] and [0, 1, 2, 3, 4] is 1.0
+
+	Score diversity of [0] against all other attribute combinations is 354.14
+
+Cog diversity single max diff between [1] and [0] is 0.583307573
+Cog diversity single max diff between [1] and [2] is 0.154736144
+Cog diversity single max diff between [1] and [3] is 0.213702199
+Cog diversity single max diff between [1] and [4] is 0.144283183
+Cog diversity single max diff between [1] and [0, 1] is 0.583307573
+Cog diversity single max diff between [1] and [0, 2] is 0.583307573
+Cog diversity single max diff between [1] and [0, 3] is 0.583307573
+Cog diversity single max diff between [1] and [0, 4] is 0.583307573
+Cog diversity single max diff between [1] and [1, 2] is 0.123183925
+Cog diversity single max diff between [1] and [1, 3] is 0.123183925
+Cog diversity single max diff between [1] and [1, 4] is 0.123183925
+Cog diversity single max diff between [1] and [2, 3] is 0.154736144
+Cog diversity single max diff between [1] and [2, 4] is 0.154736144
+Cog diversity single max diff between [1] and [3, 4] is 0.115129571
+Cog diversity single max diff between [1] and [0, 1, 2] is 0.583307573
+Cog diversity single max diff between [1] and [0, 1, 3] is 0.583307573
+Cog diversity single max diff between [1] and [0, 1, 4] is 0.583307573
+Cog diversity single max diff between [1] and [0, 2, 3] is 0.583307573
+Cog diversity single max diff between [1] and [0, 2, 4] is 0.583307573
+Cog diversity single max diff between [1] and [0, 3, 4] is 0.583307573
+Cog diversity single max diff between [1] and [1, 2, 3] is 0.123183925
+Cog diversity single max diff between [1] and [1, 2, 4] is 0.123183925
+Cog diversity single max diff between [1] and [1, 3, 4] is 0.123183925
+Cog diversity single max diff between [1] and [2, 3, 4] is 0.154736144
+Cog diversity single max diff between [1] and [0, 1, 2, 3] is 0.583307573
+Cog diversity single max diff between [1] and [0, 1, 2, 4] is 0.583307573
+Cog diversity single max diff between [1] and [0, 1, 3, 4] is 0.583307573
+Cog diversity single max diff between [1] and [0, 2, 3, 4] is 0.583307573
+Cog diversity single max diff between [1] and [1, 2, 3, 4] is 0.123183925
+Cog diversity single max diff between [1] and [0, 1, 2, 3, 4] is 0.583307573
+
+	Score diversity of [1] against all other attribute combinations is 332.93
+
+Cog diversity single max diff between [2] and [0] is 0.628571429
+Cog diversity single max diff between [2] and [1] is 0.168447781
+Cog diversity single max diff between [2] and [3] is 0.258966055
+Cog diversity single max diff between [2] and [4] is 0.189547039
+Cog diversity single max diff between [2] and [0, 1] is 0.628571429
+Cog diversity single max diff between [2] and [0, 2] is 0.628571429
+Cog diversity single max diff between [2] and [0, 3] is 0.628571429
+Cog diversity single max diff between [2] and [0, 4] is 0.628571429
+Cog diversity single max diff between [2] and [1, 2] is 0.168447781
+Cog diversity single max diff between [2] and [1, 3] is 0.168447781
+Cog diversity single max diff between [2] and [1, 4] is 0.168447781
+Cog diversity single max diff between [2] and [2, 3] is 0.2
+Cog diversity single max diff between [2] and [2, 4] is 0.2
+Cog diversity single max diff between [2] and [3, 4] is 0.160393427
+Cog diversity single max diff between [2] and [0, 1, 2] is 0.628571429
+Cog diversity single max diff between [2] and [0, 1, 3] is 0.628571429
+Cog diversity single max diff between [2] and [0, 1, 4] is 0.628571429
+Cog diversity single max diff between [2] and [0, 2, 3] is 0.628571429
+Cog diversity single max diff between [2] and [0, 2, 4] is 0.628571429
+Cog diversity single max diff between [2] and [0, 3, 4] is 0.628571429
+Cog diversity single max diff between [2] and [1, 2, 3] is 0.168447781
+Cog diversity single max diff between [2] and [1, 2, 4] is 0.168447781
+Cog diversity single max diff between [2] and [1, 3, 4] is 0.168447781
+Cog diversity single max diff between [2] and [2, 3, 4] is 0.2
+Cog diversity single max diff between [2] and [0, 1, 2, 3] is 0.628571429
+Cog diversity single max diff between [2] and [0, 1, 2, 4] is 0.628571429
+Cog diversity single max diff between [2] and [0, 1, 3, 4] is 0.628571429
+Cog diversity single max diff between [2] and [0, 2, 3, 4] is 0.628571429
+Cog diversity single max diff between [2] and [1, 2, 3, 4] is 0.168447781
+Cog diversity single max diff between [2] and [0, 1, 2, 3, 4] is 0.628571429
+
+	Score diversity of [2] against all other attribute combinations is 315.09
+
+Cog diversity single max diff between [3] and [0] is 0.468178002
+Cog diversity single max diff between [3] and [1] is 0.008054354
+Cog diversity single max diff between [3] and [2] is 0.039606573
+Cog diversity single max diff between [3] and [4] is 0.029153612
+Cog diversity single max diff between [3] and [0, 1] is 0.468178002
+Cog diversity single max diff between [3] and [0, 2] is 0.468178002
+Cog diversity single max diff between [3] and [0, 3] is 0.468178002
+Cog diversity single max diff between [3] and [0, 4] is 0.468178002
+Cog diversity single max diff between [3] and [1, 2] is 0.008054354
+Cog diversity single max diff between [3] and [1, 3] is 0.008054354
+Cog diversity single max diff between [3] and [1, 4] is 0.008054354
+Cog diversity single max diff between [3] and [2, 3] is 0.039606573
+Cog diversity single max diff between [3] and [2, 4] is 0.039606573
+Cog diversity single max diff between [3] and [3, 4] is 0.0
+Cog diversity single max diff between [3] and [0, 1, 2] is 0.468178002
+Cog diversity single max diff between [3] and [0, 1, 3] is 0.468178002
+Cog diversity single max diff between [3] and [0, 1, 4] is 0.468178002
+Cog diversity single max diff between [3] and [0, 2, 3] is 0.468178002
+Cog diversity single max diff between [3] and [0, 2, 4] is 0.468178002
+Cog diversity single max diff between [3] and [0, 3, 4] is 0.468178002
+Cog diversity single max diff between [3] and [1, 2, 3] is 0.008054354
+Cog diversity single max diff between [3] and [1, 2, 4] is 0.008054354
+Cog diversity single max diff between [3] and [1, 3, 4] is 0.008054354
+Cog diversity single max diff between [3] and [2, 3, 4] is 0.039606573
+Cog diversity single max diff between [3] and [0, 1, 2, 3] is 0.468178002
+Cog diversity single max diff between [3] and [0, 1, 2, 4] is 0.468178002
+Cog diversity single max diff between [3] and [0, 1, 3, 4] is 0.468178002
+Cog diversity single max diff between [3] and [0, 2, 3, 4] is 0.468178002
+Cog diversity single max diff between [3] and [1, 2, 3, 4] is 0.008054354
+Cog diversity single max diff between [3] and [0, 1, 2, 3, 4] is 0.468178002
+
+	Score diversity of [3] against all other attribute combinations is 393.55
+
+Cog diversity single max diff between [4] and [0] is 0.463414634
+Cog diversity single max diff between [4] and [1] is 0.003290986
+Cog diversity single max diff between [4] and [2] is 0.034843205
+Cog diversity single max diff between [4] and [3] is 0.09380926
+Cog diversity single max diff between [4] and [0, 1] is 0.463414634
+Cog diversity single max diff between [4] and [0, 2] is 0.463414634
+Cog diversity single max diff between [4] and [0, 3] is 0.463414634
+Cog diversity single max diff between [4] and [0, 4] is 0.463414634
+Cog diversity single max diff between [4] and [1, 2] is 0.003290986
+Cog diversity single max diff between [4] and [1, 3] is 0.003290986
+Cog diversity single max diff between [4] and [1, 4] is 0.003290986
+Cog diversity single max diff between [4] and [2, 3] is 0.034843205
+Cog diversity single max diff between [4] and [2, 4] is 0.034843205
+Cog diversity single max diff between [4] and [3, 4] is 0.004763368
+Cog diversity single max diff between [4] and [0, 1, 2] is 0.463414634
+Cog diversity single max diff between [4] and [0, 1, 3] is 0.463414634
+Cog diversity single max diff between [4] and [0, 1, 4] is 0.463414634
+Cog diversity single max diff between [4] and [0, 2, 3] is 0.463414634
+Cog diversity single max diff between [4] and [0, 2, 4] is 0.463414634
+Cog diversity single max diff between [4] and [0, 3, 4] is 0.463414634
+Cog diversity single max diff between [4] and [1, 2, 3] is 0.003290986
+Cog diversity single max diff between [4] and [1, 2, 4] is 0.003290986
+Cog diversity single max diff between [4] and [1, 3, 4] is 0.003290986
+Cog diversity single max diff between [4] and [2, 3, 4] is 0.034843205
+Cog diversity single max diff between [4] and [0, 1, 2, 3] is 0.463414634
+Cog diversity single max diff between [4] and [0, 1, 2, 4] is 0.463414634
+Cog diversity single max diff between [4] and [0, 1, 3, 4] is 0.463414634
+Cog diversity single max diff between [4] and [0, 2, 3, 4] is 0.463414634
+Cog diversity single max diff between [4] and [1, 2, 3, 4] is 0.003290986
+Cog diversity single max diff between [4] and [0, 1, 2, 3, 4] is 0.463414634
+
+	Score diversity of [4] against all other attribute combinations is 382.77
+
+Cog diversity single max diff between [0, 1] and [0] is 1.583307573
+Cog diversity single max diff between [0, 1] and [1] is 1.123183925
+Cog diversity single max diff between [0, 1] and [2] is 1.154736144
+Cog diversity single max diff between [0, 1] and [3] is 1.213702199
+Cog diversity single max diff between [0, 1] and [4] is 1.144283183
+Cog diversity single max diff between [0, 1] and [0, 2] is 1.583307573
+Cog diversity single max diff between [0, 1] and [0, 3] is 1.583307573
+Cog diversity single max diff between [0, 1] and [0, 4] is 1.583307573
+Cog diversity single max diff between [0, 1] and [1, 2] is 1.123183925
+Cog diversity single max diff between [0, 1] and [1, 3] is 1.123183925
+Cog diversity single max diff between [0, 1] and [1, 4] is 1.123183925
+Cog diversity single max diff between [0, 1] and [2, 3] is 1.154736144
+Cog diversity single max diff between [0, 1] and [2, 4] is 1.154736144
+Cog diversity single max diff between [0, 1] and [3, 4] is 1.115129571
+Cog diversity single max diff between [0, 1] and [0, 1, 2] is 1.583307573
+Cog diversity single max diff between [0, 1] and [0, 1, 3] is 1.583307573
+Cog diversity single max diff between [0, 1] and [0, 1, 4] is 1.583307573
+Cog diversity single max diff between [0, 1] and [0, 2, 3] is 1.583307573
+Cog diversity single max diff between [0, 1] and [0, 2, 4] is 1.583307573
+Cog diversity single max diff between [0, 1] and [0, 3, 4] is 1.583307573
+Cog diversity single max diff between [0, 1] and [1, 2, 3] is 1.123183925
+Cog diversity single max diff between [0, 1] and [1, 2, 4] is 1.123183925
+Cog diversity single max diff between [0, 1] and [1, 3, 4] is 1.123183925
+Cog diversity single max diff between [0, 1] and [2, 3, 4] is 1.154736144
+Cog diversity single max diff between [0, 1] and [0, 1, 2, 3] is 1.583307573
+Cog diversity single max diff between [0, 1] and [0, 1, 2, 4] is 1.583307573
+Cog diversity single max diff between [0, 1] and [0, 1, 3, 4] is 1.583307573
+Cog diversity single max diff between [0, 1] and [0, 2, 3, 4] is 1.583307573
+Cog diversity single max diff between [0, 1] and [1, 2, 3, 4] is 1.123183925
+Cog diversity single max diff between [0, 1] and [0, 1, 2, 3, 4] is 1.583307573
+
+	Score diversity of [0, 1] against all other attribute combinations is 222.58
+
+Cog diversity single max diff between [0, 2] and [0] is 1.628571429
+Cog diversity single max diff between [0, 2] and [1] is 1.168447781
+Cog diversity single max diff between [0, 2] and [2] is 1.2
+Cog diversity single max diff between [0, 2] and [3] is 1.258966055
+Cog diversity single max diff between [0, 2] and [4] is 1.189547039
+Cog diversity single max diff between [0, 2] and [0, 1] is 1.628571429
+Cog diversity single max diff between [0, 2] and [0, 3] is 1.628571429
+Cog diversity single max diff between [0, 2] and [0, 4] is 1.628571429
+Cog diversity single max diff between [0, 2] and [1, 2] is 1.168447781
+Cog diversity single max diff between [0, 2] and [1, 3] is 1.168447781
+Cog diversity single max diff between [0, 2] and [1, 4] is 1.168447781
+Cog diversity single max diff between [0, 2] and [2, 3] is 1.2
+Cog diversity single max diff between [0, 2] and [2, 4] is 1.2
+Cog diversity single max diff between [0, 2] and [3, 4] is 1.160393427
+Cog diversity single max diff between [0, 2] and [0, 1, 2] is 1.628571429
+Cog diversity single max diff between [0, 2] and [0, 1, 3] is 1.628571429
+Cog diversity single max diff between [0, 2] and [0, 1, 4] is 1.628571429
+Cog diversity single max diff between [0, 2] and [0, 2, 3] is 1.628571429
+Cog diversity single max diff between [0, 2] and [0, 2, 4] is 1.628571429
+Cog diversity single max diff between [0, 2] and [0, 3, 4] is 1.628571429
+Cog diversity single max diff between [0, 2] and [1, 2, 3] is 1.168447781
+Cog diversity single max diff between [0, 2] and [1, 2, 4] is 1.168447781
+Cog diversity single max diff between [0, 2] and [1, 3, 4] is 1.168447781
+Cog diversity single max diff between [0, 2] and [2, 3, 4] is 1.2
+Cog diversity single max diff between [0, 2] and [0, 1, 2, 3] is 1.628571429
+Cog diversity single max diff between [0, 2] and [0, 1, 2, 4] is 1.628571429
+Cog diversity single max diff between [0, 2] and [0, 1, 3, 4] is 1.628571429
+Cog diversity single max diff between [0, 2] and [0, 2, 3, 4] is 1.628571429
+Cog diversity single max diff between [0, 2] and [1, 2, 3, 4] is 1.168447781
+Cog diversity single max diff between [0, 2] and [0, 1, 2, 3, 4] is 1.628571429
+
+	Score diversity of [0, 2] against all other attribute combinations is 218.87
+
+Cog diversity single max diff between [0, 3] and [0] is 1.369605374
+Cog diversity single max diff between [0, 3] and [1] is 0.909481726
+Cog diversity single max diff between [0, 3] and [2] is 0.941033945
+Cog diversity single max diff between [0, 3] and [3] is 1.0
+Cog diversity single max diff between [0, 3] and [4] is 0.930580984
+Cog diversity single max diff between [0, 3] and [0, 1] is 1.369605374
+Cog diversity single max diff between [0, 3] and [0, 2] is 1.369605374
+Cog diversity single max diff between [0, 3] and [0, 4] is 1.369605374
+Cog diversity single max diff between [0, 3] and [1, 2] is 0.909481726
+Cog diversity single max diff between [0, 3] and [1, 3] is 0.909481726
+Cog diversity single max diff between [0, 3] and [1, 4] is 0.909481726
+Cog diversity single max diff between [0, 3] and [2, 3] is 0.941033945
+Cog diversity single max diff between [0, 3] and [2, 4] is 0.941033945
+Cog diversity single max diff between [0, 3] and [3, 4] is 0.901427372
+Cog diversity single max diff between [0, 3] and [0, 1, 2] is 1.369605374
+Cog diversity single max diff between [0, 3] and [0, 1, 3] is 1.369605374
+Cog diversity single max diff between [0, 3] and [0, 1, 4] is 1.369605374
+Cog diversity single max diff between [0, 3] and [0, 2, 3] is 1.369605374
+Cog diversity single max diff between [0, 3] and [0, 2, 4] is 1.369605374
+Cog diversity single max diff between [0, 3] and [0, 3, 4] is 1.369605374
+Cog diversity single max diff between [0, 3] and [1, 2, 3] is 0.909481726
+Cog diversity single max diff between [0, 3] and [1, 2, 4] is 0.909481726
+Cog diversity single max diff between [0, 3] and [1, 3, 4] is 0.909481726
+Cog diversity single max diff between [0, 3] and [2, 3, 4] is 0.941033945
+Cog diversity single max diff between [0, 3] and [0, 1, 2, 3] is 1.369605374
+Cog diversity single max diff between [0, 3] and [0, 1, 2, 4] is 1.369605374
+Cog diversity single max diff between [0, 3] and [0, 1, 3, 4] is 1.369605374
+Cog diversity single max diff between [0, 3] and [0, 2, 3, 4] is 1.369605374
+Cog diversity single max diff between [0, 3] and [1, 2, 3, 4] is 0.909481726
+Cog diversity single max diff between [0, 3] and [0, 1, 2, 3, 4] is 1.369605374
+
+	Score diversity of [0, 3] against all other attribute combinations is 237.67
+
+Cog diversity single max diff between [0, 4] and [0] is 1.43902439
+Cog diversity single max diff between [0, 4] and [1] is 0.978900742
+Cog diversity single max diff between [0, 4] and [2] is 1.010452961
+Cog diversity single max diff between [0, 4] and [3] is 1.069419016
+Cog diversity single max diff between [0, 4] and [4] is 1.0
+Cog diversity single max diff between [0, 4] and [0, 1] is 1.43902439
+Cog diversity single max diff between [0, 4] and [0, 2] is 1.43902439
+Cog diversity single max diff between [0, 4] and [0, 3] is 1.43902439
+Cog diversity single max diff between [0, 4] and [1, 2] is 0.978900742
+Cog diversity single max diff between [0, 4] and [1, 3] is 0.978900742
+Cog diversity single max diff between [0, 4] and [1, 4] is 0.978900742
+Cog diversity single max diff between [0, 4] and [2, 3] is 1.010452961
+Cog diversity single max diff between [0, 4] and [2, 4] is 1.010452961
+Cog diversity single max diff between [0, 4] and [3, 4] is 0.970846388
+Cog diversity single max diff between [0, 4] and [0, 1, 2] is 1.43902439
+Cog diversity single max diff between [0, 4] and [0, 1, 3] is 1.43902439
+Cog diversity single max diff between [0, 4] and [0, 1, 4] is 1.43902439
+Cog diversity single max diff between [0, 4] and [0, 2, 3] is 1.43902439
+Cog diversity single max diff between [0, 4] and [0, 2, 4] is 1.43902439
+Cog diversity single max diff between [0, 4] and [0, 3, 4] is 1.43902439
+Cog diversity single max diff between [0, 4] and [1, 2, 3] is 0.978900742
+Cog diversity single max diff between [0, 4] and [1, 2, 4] is 0.978900742
+Cog diversity single max diff between [0, 4] and [1, 3, 4] is 0.978900742
+Cog diversity single max diff between [0, 4] and [2, 3, 4] is 1.010452961
+Cog diversity single max diff between [0, 4] and [0, 1, 2, 3] is 1.43902439
+Cog diversity single max diff between [0, 4] and [0, 1, 2, 4] is 1.43902439
+Cog diversity single max diff between [0, 4] and [0, 1, 3, 4] is 1.43902439
+Cog diversity single max diff between [0, 4] and [0, 2, 3, 4] is 1.43902439
+Cog diversity single max diff between [0, 4] and [1, 2, 3, 4] is 0.978900742
+Cog diversity single max diff between [0, 4] and [0, 1, 2, 3, 4] is 1.43902439
+
+	Score diversity of [0, 4] against all other attribute combinations is 235.51
+
+Cog diversity single max diff between [1, 2] and [0] is 1.211879002
+Cog diversity single max diff between [1, 2] and [1] is 0.751755354
+Cog diversity single max diff between [1, 2] and [2] is 0.783307573
+Cog diversity single max diff between [1, 2] and [3] is 0.842273628
+Cog diversity single max diff between [1, 2] and [4] is 0.772854612
+Cog diversity single max diff between [1, 2] and [0, 1] is 1.211879002
+Cog diversity single max diff between [1, 2] and [0, 2] is 1.211879002
+Cog diversity single max diff between [1, 2] and [0, 3] is 1.211879002
+Cog diversity single max diff between [1, 2] and [0, 4] is 1.211879002
+Cog diversity single max diff between [1, 2] and [1, 3] is 0.751755354
+Cog diversity single max diff between [1, 2] and [1, 4] is 0.751755354
+Cog diversity single max diff between [1, 2] and [2, 3] is 0.783307573
+Cog diversity single max diff between [1, 2] and [2, 4] is 0.783307573
+Cog diversity single max diff between [1, 2] and [3, 4] is 0.743701
+Cog diversity single max diff between [1, 2] and [0, 1, 2] is 1.211879002
+Cog diversity single max diff between [1, 2] and [0, 1, 3] is 1.211879002
+Cog diversity single max diff between [1, 2] and [0, 1, 4] is 1.211879002
+Cog diversity single max diff between [1, 2] and [0, 2, 3] is 1.211879002
+Cog diversity single max diff between [1, 2] and [0, 2, 4] is 1.211879002
+Cog diversity single max diff between [1, 2] and [0, 3, 4] is 1.211879002
+Cog diversity single max diff between [1, 2] and [1, 2, 3] is 0.751755354
+Cog diversity single max diff between [1, 2] and [1, 2, 4] is 0.751755354
+Cog diversity single max diff between [1, 2] and [1, 3, 4] is 0.751755354
+Cog diversity single max diff between [1, 2] and [2, 3, 4] is 0.783307573
+Cog diversity single max diff between [1, 2] and [0, 1, 2, 3] is 1.211879002
+Cog diversity single max diff between [1, 2] and [0, 1, 2, 4] is 1.211879002
+Cog diversity single max diff between [1, 2] and [0, 1, 3, 4] is 1.211879002
+Cog diversity single max diff between [1, 2] and [0, 2, 3, 4] is 1.211879002
+Cog diversity single max diff between [1, 2] and [1, 2, 3, 4] is 0.751755354
+Cog diversity single max diff between [1, 2] and [0, 1, 2, 3, 4] is 1.211879002
+
+	Score diversity of [1, 2] against all other attribute combinations is 213.13
+
+Cog diversity single max diff between [1, 3] and [0] is 0.952912947
+Cog diversity single max diff between [1, 3] and [1] is 0.492789299
+Cog diversity single max diff between [1, 3] and [2] is 0.524341518
+Cog diversity single max diff between [1, 3] and [3] is 0.583307573
+Cog diversity single max diff between [1, 3] and [4] is 0.513888557
+Cog diversity single max diff between [1, 3] and [0, 1] is 0.952912947
+Cog diversity single max diff between [1, 3] and [0, 2] is 0.952912947
+Cog diversity single max diff between [1, 3] and [0, 3] is 0.952912947
+Cog diversity single max diff between [1, 3] and [0, 4] is 0.952912947
+Cog diversity single max diff between [1, 3] and [1, 2] is 0.492789299
+Cog diversity single max diff between [1, 3] and [1, 4] is 0.492789299
+Cog diversity single max diff between [1, 3] and [2, 3] is 0.524341518
+Cog diversity single max diff between [1, 3] and [2, 4] is 0.524341518
+Cog diversity single max diff between [1, 3] and [3, 4] is 0.484734945
+Cog diversity single max diff between [1, 3] and [0, 1, 2] is 0.952912947
+Cog diversity single max diff between [1, 3] and [0, 1, 3] is 0.952912947
+Cog diversity single max diff between [1, 3] and [0, 1, 4] is 0.952912947
+Cog diversity single max diff between [1, 3] and [0, 2, 3] is 0.952912947
+Cog diversity single max diff between [1, 3] and [0, 2, 4] is 0.952912947
+Cog diversity single max diff between [1, 3] and [0, 3, 4] is 0.952912947
+Cog diversity single max diff between [1, 3] and [1, 2, 3] is 0.492789299
+Cog diversity single max diff between [1, 3] and [1, 2, 4] is 0.492789299
+Cog diversity single max diff between [1, 3] and [1, 3, 4] is 0.492789299
+Cog diversity single max diff between [1, 3] and [2, 3, 4] is 0.524341518
+Cog diversity single max diff between [1, 3] and [0, 1, 2, 3] is 0.952912947
+Cog diversity single max diff between [1, 3] and [0, 1, 2, 4] is 0.952912947
+Cog diversity single max diff between [1, 3] and [0, 1, 3, 4] is 0.952912947
+Cog diversity single max diff between [1, 3] and [0, 2, 3, 4] is 0.952912947
+Cog diversity single max diff between [1, 3] and [1, 2, 3, 4] is 0.492789299
+Cog diversity single max diff between [1, 3] and [0, 1, 2, 3, 4] is 0.952912947
+
+	Score diversity of [1, 3] against all other attribute combinations is 228.84
+
+Cog diversity single max diff between [1, 4] and [0] is 1.022331963
+Cog diversity single max diff between [1, 4] and [1] is 0.562208315
+Cog diversity single max diff between [1, 4] and [2] is 0.593760534
+Cog diversity single max diff between [1, 4] and [3] is 0.652726589
+Cog diversity single max diff between [1, 4] and [4] is 0.583307573
+Cog diversity single max diff between [1, 4] and [0, 1] is 1.022331963
+Cog diversity single max diff between [1, 4] and [0, 2] is 1.022331963
+Cog diversity single max diff between [1, 4] and [0, 3] is 1.022331963
+Cog diversity single max diff between [1, 4] and [0, 4] is 1.022331963
+Cog diversity single max diff between [1, 4] and [1, 2] is 0.562208315
+Cog diversity single max diff between [1, 4] and [1, 3] is 0.562208315
+Cog diversity single max diff between [1, 4] and [2, 3] is 0.593760534
+Cog diversity single max diff between [1, 4] and [2, 4] is 0.593760534
+Cog diversity single max diff between [1, 4] and [3, 4] is 0.554153961
+Cog diversity single max diff between [1, 4] and [0, 1, 2] is 1.022331963
+Cog diversity single max diff between [1, 4] and [0, 1, 3] is 1.022331963
+Cog diversity single max diff between [1, 4] and [0, 1, 4] is 1.022331963
+Cog diversity single max diff between [1, 4] and [0, 2, 3] is 1.022331963
+Cog diversity single max diff between [1, 4] and [0, 2, 4] is 1.022331963
+Cog diversity single max diff between [1, 4] and [0, 3, 4] is 1.022331963
+Cog diversity single max diff between [1, 4] and [1, 2, 3] is 0.562208315
+Cog diversity single max diff between [1, 4] and [1, 2, 4] is 0.562208315
+Cog diversity single max diff between [1, 4] and [1, 3, 4] is 0.562208315
+Cog diversity single max diff between [1, 4] and [2, 3, 4] is 0.593760534
+Cog diversity single max diff between [1, 4] and [0, 1, 2, 3] is 1.022331963
+Cog diversity single max diff between [1, 4] and [0, 1, 2, 4] is 1.022331963
+Cog diversity single max diff between [1, 4] and [0, 1, 3, 4] is 1.022331963
+Cog diversity single max diff between [1, 4] and [0, 2, 3, 4] is 1.022331963
+Cog diversity single max diff between [1, 4] and [1, 2, 3, 4] is 0.562208315
+Cog diversity single max diff between [1, 4] and [0, 1, 2, 3, 4] is 1.022331963
+
+	Score diversity of [1, 4] against all other attribute combinations is 223.74
+
+Cog diversity single max diff between [2, 3] and [0] is 0.998176803
+Cog diversity single max diff between [2, 3] and [1] is 0.538053155
+Cog diversity single max diff between [2, 3] and [2] is 0.569605374
+Cog diversity single max diff between [2, 3] and [3] is 0.628571429
+Cog diversity single max diff between [2, 3] and [4] is 0.559152413
+Cog diversity single max diff between [2, 3] and [0, 1] is 0.998176803
+Cog diversity single max diff between [2, 3] and [0, 2] is 0.998176803
+Cog diversity single max diff between [2, 3] and [0, 3] is 0.998176803
+Cog diversity single max diff between [2, 3] and [0, 4] is 0.998176803
+Cog diversity single max diff between [2, 3] and [1, 2] is 0.538053155
+Cog diversity single max diff between [2, 3] and [1, 3] is 0.538053155
+Cog diversity single max diff between [2, 3] and [1, 4] is 0.538053155
+Cog diversity single max diff between [2, 3] and [2, 4] is 0.569605374
+Cog diversity single max diff between [2, 3] and [3, 4] is 0.529998801
+Cog diversity single max diff between [2, 3] and [0, 1, 2] is 0.998176803
+Cog diversity single max diff between [2, 3] and [0, 1, 3] is 0.998176803
+Cog diversity single max diff between [2, 3] and [0, 1, 4] is 0.998176803
+Cog diversity single max diff between [2, 3] and [0, 2, 3] is 0.998176803
+Cog diversity single max diff between [2, 3] and [0, 2, 4] is 0.998176803
+Cog diversity single max diff between [2, 3] and [0, 3, 4] is 0.998176803
+Cog diversity single max diff between [2, 3] and [1, 2, 3] is 0.538053155
+Cog diversity single max diff between [2, 3] and [1, 2, 4] is 0.538053155
+Cog diversity single max diff between [2, 3] and [1, 3, 4] is 0.538053155
+Cog diversity single max diff between [2, 3] and [2, 3, 4] is 0.569605374
+Cog diversity single max diff between [2, 3] and [0, 1, 2, 3] is 0.998176803
+Cog diversity single max diff between [2, 3] and [0, 1, 2, 4] is 0.998176803
+Cog diversity single max diff between [2, 3] and [0, 1, 3, 4] is 0.998176803
+Cog diversity single max diff between [2, 3] and [0, 2, 3, 4] is 0.998176803
+Cog diversity single max diff between [2, 3] and [1, 2, 3, 4] is 0.538053155
+Cog diversity single max diff between [2, 3] and [0, 1, 2, 3, 4] is 0.998176803
+
+	Score diversity of [2, 3] against all other attribute combinations is 222.25
+
+Cog diversity single max diff between [2, 4] and [0] is 1.067595819
+Cog diversity single max diff between [2, 4] and [1] is 0.607472171
+Cog diversity single max diff between [2, 4] and [2] is 0.63902439
+Cog diversity single max diff between [2, 4] and [3] is 0.697990445
+Cog diversity single max diff between [2, 4] and [4] is 0.628571429
+Cog diversity single max diff between [2, 4] and [0, 1] is 1.067595819
+Cog diversity single max diff between [2, 4] and [0, 2] is 1.067595819
+Cog diversity single max diff between [2, 4] and [0, 3] is 1.067595819
+Cog diversity single max diff between [2, 4] and [0, 4] is 1.067595819
+Cog diversity single max diff between [2, 4] and [1, 2] is 0.607472171
+Cog diversity single max diff between [2, 4] and [1, 3] is 0.607472171
+Cog diversity single max diff between [2, 4] and [1, 4] is 0.607472171
+Cog diversity single max diff between [2, 4] and [2, 3] is 0.63902439
+Cog diversity single max diff between [2, 4] and [3, 4] is 0.599417817
+Cog diversity single max diff between [2, 4] and [0, 1, 2] is 1.067595819
+Cog diversity single max diff between [2, 4] and [0, 1, 3] is 1.067595819
+Cog diversity single max diff between [2, 4] and [0, 1, 4] is 1.067595819
+Cog diversity single max diff between [2, 4] and [0, 2, 3] is 1.067595819
+Cog diversity single max diff between [2, 4] and [0, 2, 4] is 1.067595819
+Cog diversity single max diff between [2, 4] and [0, 3, 4] is 1.067595819
+Cog diversity single max diff between [2, 4] and [1, 2, 3] is 0.607472171
+Cog diversity single max diff between [2, 4] and [1, 2, 4] is 0.607472171
+Cog diversity single max diff between [2, 4] and [1, 3, 4] is 0.607472171
+Cog diversity single max diff between [2, 4] and [2, 3, 4] is 0.63902439
+Cog diversity single max diff between [2, 4] and [0, 1, 2, 3] is 1.067595819
+Cog diversity single max diff between [2, 4] and [0, 1, 2, 4] is 1.067595819
+Cog diversity single max diff between [2, 4] and [0, 1, 3, 4] is 1.067595819
+Cog diversity single max diff between [2, 4] and [0, 2, 3, 4] is 1.067595819
+Cog diversity single max diff between [2, 4] and [1, 2, 3, 4] is 0.607472171
+Cog diversity single max diff between [2, 4] and [0, 1, 2, 3, 4] is 1.067595819
+
+	Score diversity of [2, 4] against all other attribute combinations is 219.43
+
+Cog diversity single max diff between [3, 4] and [0] is 0.808629764
+Cog diversity single max diff between [3, 4] and [1] is 0.348506116
+Cog diversity single max diff between [3, 4] and [2] is 0.380058335
+Cog diversity single max diff between [3, 4] and [3] is 0.43902439
+Cog diversity single max diff between [3, 4] and [4] is 0.369605374
+Cog diversity single max diff between [3, 4] and [0, 1] is 0.808629764
+Cog diversity single max diff between [3, 4] and [0, 2] is 0.808629764
+Cog diversity single max diff between [3, 4] and [0, 3] is 0.808629764
+Cog diversity single max diff between [3, 4] and [0, 4] is 0.808629764
+Cog diversity single max diff between [3, 4] and [1, 2] is 0.348506116
+Cog diversity single max diff between [3, 4] and [1, 3] is 0.348506116
+Cog diversity single max diff between [3, 4] and [1, 4] is 0.348506116
+Cog diversity single max diff between [3, 4] and [2, 3] is 0.380058335
+Cog diversity single max diff between [3, 4] and [2, 4] is 0.380058335
+Cog diversity single max diff between [3, 4] and [0, 1, 2] is 0.808629764
+Cog diversity single max diff between [3, 4] and [0, 1, 3] is 0.808629764
+Cog diversity single max diff between [3, 4] and [0, 1, 4] is 0.808629764
+Cog diversity single max diff between [3, 4] and [0, 2, 3] is 0.808629764
+Cog diversity single max diff between [3, 4] and [0, 2, 4] is 0.808629764
+Cog diversity single max diff between [3, 4] and [0, 3, 4] is 0.808629764
+Cog diversity single max diff between [3, 4] and [1, 2, 3] is 0.348506116
+Cog diversity single max diff between [3, 4] and [1, 2, 4] is 0.348506116
+Cog diversity single max diff between [3, 4] and [1, 3, 4] is 0.348506116
+Cog diversity single max diff between [3, 4] and [2, 3, 4] is 0.380058335
+Cog diversity single max diff between [3, 4] and [0, 1, 2, 3] is 0.808629764
+Cog diversity single max diff between [3, 4] and [0, 1, 2, 4] is 0.808629764
+Cog diversity single max diff between [3, 4] and [0, 1, 3, 4] is 0.808629764
+Cog diversity single max diff between [3, 4] and [0, 2, 3, 4] is 0.808629764
+Cog diversity single max diff between [3, 4] and [1, 2, 3, 4] is 0.348506116
+Cog diversity single max diff between [3, 4] and [0, 1, 2, 3, 4] is 0.808629764
+
+	Score diversity of [3, 4] against all other attribute combinations is 252.04
+
+Cog diversity single max diff between [0, 1, 2] and [0] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [1] is 1.751755354
+Cog diversity single max diff between [0, 1, 2] and [2] is 1.783307573
+Cog diversity single max diff between [0, 1, 2] and [3] is 1.842273628
+Cog diversity single max diff between [0, 1, 2] and [4] is 1.772854612
+Cog diversity single max diff between [0, 1, 2] and [0, 1] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [0, 2] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [0, 3] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [0, 4] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [1, 2] is 1.751755354
+Cog diversity single max diff between [0, 1, 2] and [1, 3] is 1.751755354
+Cog diversity single max diff between [0, 1, 2] and [1, 4] is 1.751755354
+Cog diversity single max diff between [0, 1, 2] and [2, 3] is 1.783307573
+Cog diversity single max diff between [0, 1, 2] and [2, 4] is 1.783307573
+Cog diversity single max diff between [0, 1, 2] and [3, 4] is 1.743701
+Cog diversity single max diff between [0, 1, 2] and [0, 1, 3] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [0, 1, 4] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [0, 2, 3] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [0, 2, 4] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [0, 3, 4] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [1, 2, 3] is 1.751755354
+Cog diversity single max diff between [0, 1, 2] and [1, 2, 4] is 1.751755354
+Cog diversity single max diff between [0, 1, 2] and [1, 3, 4] is 1.751755354
+Cog diversity single max diff between [0, 1, 2] and [2, 3, 4] is 1.783307573
+Cog diversity single max diff between [0, 1, 2] and [0, 1, 2, 3] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [0, 1, 2, 4] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [0, 1, 3, 4] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [0, 2, 3, 4] is 2.211879002
+Cog diversity single max diff between [0, 1, 2] and [1, 2, 3, 4] is 1.751755354
+Cog diversity single max diff between [0, 1, 2] and [0, 1, 2, 3, 4] is 2.211879002
+
+	Score diversity of [0, 1, 2] against all other attribute combinations is 239.1
+
+Cog diversity single max diff between [0, 1, 3] and [0] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [1] is 1.492789299
+Cog diversity single max diff between [0, 1, 3] and [2] is 1.524341518
+Cog diversity single max diff between [0, 1, 3] and [3] is 1.583307573
+Cog diversity single max diff between [0, 1, 3] and [4] is 1.513888557
+Cog diversity single max diff between [0, 1, 3] and [0, 1] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [0, 2] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [0, 3] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [0, 4] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [1, 2] is 1.492789299
+Cog diversity single max diff between [0, 1, 3] and [1, 3] is 1.492789299
+Cog diversity single max diff between [0, 1, 3] and [1, 4] is 1.492789299
+Cog diversity single max diff between [0, 1, 3] and [2, 3] is 1.524341518
+Cog diversity single max diff between [0, 1, 3] and [2, 4] is 1.524341518
+Cog diversity single max diff between [0, 1, 3] and [3, 4] is 1.484734945
+Cog diversity single max diff between [0, 1, 3] and [0, 1, 2] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [0, 1, 4] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [0, 2, 3] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [0, 2, 4] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [0, 3, 4] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [1, 2, 3] is 1.492789299
+Cog diversity single max diff between [0, 1, 3] and [1, 2, 4] is 1.492789299
+Cog diversity single max diff between [0, 1, 3] and [1, 3, 4] is 1.492789299
+Cog diversity single max diff between [0, 1, 3] and [2, 3, 4] is 1.524341518
+Cog diversity single max diff between [0, 1, 3] and [0, 1, 2, 3] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [0, 1, 2, 4] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [0, 1, 3, 4] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [0, 2, 3, 4] is 1.952912947
+Cog diversity single max diff between [0, 1, 3] and [1, 2, 3, 4] is 1.492789299
+Cog diversity single max diff between [0, 1, 3] and [0, 1, 2, 3, 4] is 1.952912947
+
+	Score diversity of [0, 1, 3] against all other attribute combinations is 204.92
+
+Cog diversity single max diff between [0, 1, 4] and [0] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [1] is 1.562208315
+Cog diversity single max diff between [0, 1, 4] and [2] is 1.593760534
+Cog diversity single max diff between [0, 1, 4] and [3] is 1.652726589
+Cog diversity single max diff between [0, 1, 4] and [4] is 1.583307573
+Cog diversity single max diff between [0, 1, 4] and [0, 1] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [0, 2] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [0, 3] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [0, 4] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [1, 2] is 1.562208315
+Cog diversity single max diff between [0, 1, 4] and [1, 3] is 1.562208315
+Cog diversity single max diff between [0, 1, 4] and [1, 4] is 1.562208315
+Cog diversity single max diff between [0, 1, 4] and [2, 3] is 1.593760534
+Cog diversity single max diff between [0, 1, 4] and [2, 4] is 1.593760534
+Cog diversity single max diff between [0, 1, 4] and [3, 4] is 1.554153961
+Cog diversity single max diff between [0, 1, 4] and [0, 1, 2] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [0, 1, 3] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [0, 2, 3] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [0, 2, 4] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [0, 3, 4] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [1, 2, 3] is 1.562208315
+Cog diversity single max diff between [0, 1, 4] and [1, 2, 4] is 1.562208315
+Cog diversity single max diff between [0, 1, 4] and [1, 3, 4] is 1.562208315
+Cog diversity single max diff between [0, 1, 4] and [2, 3, 4] is 1.593760534
+Cog diversity single max diff between [0, 1, 4] and [0, 1, 2, 3] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [0, 1, 2, 4] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [0, 1, 3, 4] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [0, 2, 3, 4] is 2.022331963
+Cog diversity single max diff between [0, 1, 4] and [1, 2, 3, 4] is 1.562208315
+Cog diversity single max diff between [0, 1, 4] and [0, 1, 2, 3, 4] is 2.022331963
+
+	Score diversity of [0, 1, 4] against all other attribute combinations is 207.92
+
+Cog diversity single max diff between [0, 2, 3] and [0] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [1] is 1.538053155
+Cog diversity single max diff between [0, 2, 3] and [2] is 1.569605374
+Cog diversity single max diff between [0, 2, 3] and [3] is 1.628571429
+Cog diversity single max diff between [0, 2, 3] and [4] is 1.559152413
+Cog diversity single max diff between [0, 2, 3] and [0, 1] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [0, 2] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [0, 3] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [0, 4] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [1, 2] is 1.538053155
+Cog diversity single max diff between [0, 2, 3] and [1, 3] is 1.538053155
+Cog diversity single max diff between [0, 2, 3] and [1, 4] is 1.538053155
+Cog diversity single max diff between [0, 2, 3] and [2, 3] is 1.569605374
+Cog diversity single max diff between [0, 2, 3] and [2, 4] is 1.569605374
+Cog diversity single max diff between [0, 2, 3] and [3, 4] is 1.529998801
+Cog diversity single max diff between [0, 2, 3] and [0, 1, 2] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [0, 1, 3] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [0, 1, 4] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [0, 2, 4] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [0, 3, 4] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [1, 2, 3] is 1.538053155
+Cog diversity single max diff between [0, 2, 3] and [1, 2, 4] is 1.538053155
+Cog diversity single max diff between [0, 2, 3] and [1, 3, 4] is 1.538053155
+Cog diversity single max diff between [0, 2, 3] and [2, 3, 4] is 1.569605374
+Cog diversity single max diff between [0, 2, 3] and [0, 1, 2, 3] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [0, 1, 2, 4] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [0, 1, 3, 4] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [0, 2, 3, 4] is 1.998176803
+Cog diversity single max diff between [0, 2, 3] and [1, 2, 3, 4] is 1.538053155
+Cog diversity single max diff between [0, 2, 3] and [0, 1, 2, 3, 4] is 1.998176803
+
+	Score diversity of [0, 2, 3] against all other attribute combinations is 210.44
+
+Cog diversity single max diff between [0, 2, 4] and [0] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [1] is 1.607472171
+Cog diversity single max diff between [0, 2, 4] and [2] is 1.63902439
+Cog diversity single max diff between [0, 2, 4] and [3] is 1.697990445
+Cog diversity single max diff between [0, 2, 4] and [4] is 1.628571429
+Cog diversity single max diff between [0, 2, 4] and [0, 1] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [0, 2] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [0, 3] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [0, 4] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [1, 2] is 1.607472171
+Cog diversity single max diff between [0, 2, 4] and [1, 3] is 1.607472171
+Cog diversity single max diff between [0, 2, 4] and [1, 4] is 1.607472171
+Cog diversity single max diff between [0, 2, 4] and [2, 3] is 1.63902439
+Cog diversity single max diff between [0, 2, 4] and [2, 4] is 1.63902439
+Cog diversity single max diff between [0, 2, 4] and [3, 4] is 1.599417817
+Cog diversity single max diff between [0, 2, 4] and [0, 1, 2] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [0, 1, 3] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [0, 1, 4] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [0, 2, 3] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [0, 3, 4] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [1, 2, 3] is 1.607472171
+Cog diversity single max diff between [0, 2, 4] and [1, 2, 4] is 1.607472171
+Cog diversity single max diff between [0, 2, 4] and [1, 3, 4] is 1.607472171
+Cog diversity single max diff between [0, 2, 4] and [2, 3, 4] is 1.63902439
+Cog diversity single max diff between [0, 2, 4] and [0, 1, 2, 3] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [0, 1, 2, 4] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [0, 1, 3, 4] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [0, 2, 3, 4] is 2.067595819
+Cog diversity single max diff between [0, 2, 4] and [1, 2, 3, 4] is 1.607472171
+Cog diversity single max diff between [0, 2, 4] and [0, 1, 2, 3, 4] is 2.067595819
+
+	Score diversity of [0, 2, 4] against all other attribute combinations is 215.37
+
+Cog diversity single max diff between [0, 3, 4] and [0] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [1] is 1.348506116
+Cog diversity single max diff between [0, 3, 4] and [2] is 1.380058335
+Cog diversity single max diff between [0, 3, 4] and [3] is 1.43902439
+Cog diversity single max diff between [0, 3, 4] and [4] is 1.369605374
+Cog diversity single max diff between [0, 3, 4] and [0, 1] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [0, 2] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [0, 3] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [0, 4] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [1, 2] is 1.348506116
+Cog diversity single max diff between [0, 3, 4] and [1, 3] is 1.348506116
+Cog diversity single max diff between [0, 3, 4] and [1, 4] is 1.348506116
+Cog diversity single max diff between [0, 3, 4] and [2, 3] is 1.380058335
+Cog diversity single max diff between [0, 3, 4] and [2, 4] is 1.380058335
+Cog diversity single max diff between [0, 3, 4] and [3, 4] is 1.340451762
+Cog diversity single max diff between [0, 3, 4] and [0, 1, 2] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [0, 1, 3] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [0, 1, 4] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [0, 2, 3] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [0, 2, 4] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [1, 2, 3] is 1.348506116
+Cog diversity single max diff between [0, 3, 4] and [1, 2, 4] is 1.348506116
+Cog diversity single max diff between [0, 3, 4] and [1, 3, 4] is 1.348506116
+Cog diversity single max diff between [0, 3, 4] and [2, 3, 4] is 1.380058335
+Cog diversity single max diff between [0, 3, 4] and [0, 1, 2, 3] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [0, 1, 2, 4] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [0, 1, 3, 4] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [0, 2, 3, 4] is 1.808629764
+Cog diversity single max diff between [0, 3, 4] and [1, 2, 3, 4] is 1.348506116
+Cog diversity single max diff between [0, 3, 4] and [0, 1, 2, 3, 4] is 1.808629764
+
+	Score diversity of [0, 3, 4] against all other attribute combinations is 195.2
+
+Cog diversity single max diff between [1, 2, 3] and [0] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [1] is 1.121360728
+Cog diversity single max diff between [1, 2, 3] and [2] is 1.152912947
+Cog diversity single max diff between [1, 2, 3] and [3] is 1.211879002
+Cog diversity single max diff between [1, 2, 3] and [4] is 1.142459986
+Cog diversity single max diff between [1, 2, 3] and [0, 1] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [0, 2] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [0, 3] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [0, 4] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [1, 2] is 1.121360728
+Cog diversity single max diff between [1, 2, 3] and [1, 3] is 1.121360728
+Cog diversity single max diff between [1, 2, 3] and [1, 4] is 1.121360728
+Cog diversity single max diff between [1, 2, 3] and [2, 3] is 1.152912947
+Cog diversity single max diff between [1, 2, 3] and [2, 4] is 1.152912947
+Cog diversity single max diff between [1, 2, 3] and [3, 4] is 1.113306374
+Cog diversity single max diff between [1, 2, 3] and [0, 1, 2] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [0, 1, 3] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [0, 1, 4] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [0, 2, 3] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [0, 2, 4] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [0, 3, 4] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [1, 2, 4] is 1.121360728
+Cog diversity single max diff between [1, 2, 3] and [1, 3, 4] is 1.121360728
+Cog diversity single max diff between [1, 2, 3] and [2, 3, 4] is 1.152912947
+Cog diversity single max diff between [1, 2, 3] and [0, 1, 2, 3] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [0, 1, 2, 4] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [0, 1, 3, 4] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [0, 2, 3, 4] is 1.581484376
+Cog diversity single max diff between [1, 2, 3] and [1, 2, 3, 4] is 1.121360728
+Cog diversity single max diff between [1, 2, 3] and [0, 1, 2, 3, 4] is 1.581484376
+
+	Score diversity of [1, 2, 3] against all other attribute combinations is 218.34
+
+Cog diversity single max diff between [1, 2, 4] and [0] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [1] is 1.190779744
+Cog diversity single max diff between [1, 2, 4] and [2] is 1.222331963
+Cog diversity single max diff between [1, 2, 4] and [3] is 1.281298018
+Cog diversity single max diff between [1, 2, 4] and [4] is 1.211879002
+Cog diversity single max diff between [1, 2, 4] and [0, 1] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [0, 2] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [0, 3] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [0, 4] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [1, 2] is 1.190779744
+Cog diversity single max diff between [1, 2, 4] and [1, 3] is 1.190779744
+Cog diversity single max diff between [1, 2, 4] and [1, 4] is 1.190779744
+Cog diversity single max diff between [1, 2, 4] and [2, 3] is 1.222331963
+Cog diversity single max diff between [1, 2, 4] and [2, 4] is 1.222331963
+Cog diversity single max diff between [1, 2, 4] and [3, 4] is 1.18272539
+Cog diversity single max diff between [1, 2, 4] and [0, 1, 2] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [0, 1, 3] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [0, 1, 4] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [0, 2, 3] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [0, 2, 4] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [0, 3, 4] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [1, 2, 3] is 1.190779744
+Cog diversity single max diff between [1, 2, 4] and [1, 3, 4] is 1.190779744
+Cog diversity single max diff between [1, 2, 4] and [2, 3, 4] is 1.222331963
+Cog diversity single max diff between [1, 2, 4] and [0, 1, 2, 3] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [0, 1, 2, 4] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [0, 1, 3, 4] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [0, 2, 3, 4] is 1.650903392
+Cog diversity single max diff between [1, 2, 4] and [1, 2, 3, 4] is 1.190779744
+Cog diversity single max diff between [1, 2, 4] and [0, 1, 2, 3, 4] is 1.650903392
+
+	Score diversity of [1, 2, 4] against all other attribute combinations is 220.69
+
+Cog diversity single max diff between [1, 3, 4] and [0] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [1] is 0.931813689
+Cog diversity single max diff between [1, 3, 4] and [2] is 0.963365908
+Cog diversity single max diff between [1, 3, 4] and [3] is 1.022331963
+Cog diversity single max diff between [1, 3, 4] and [4] is 0.952912947
+Cog diversity single max diff between [1, 3, 4] and [0, 1] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [0, 2] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [0, 3] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [0, 4] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [1, 2] is 0.931813689
+Cog diversity single max diff between [1, 3, 4] and [1, 3] is 0.931813689
+Cog diversity single max diff between [1, 3, 4] and [1, 4] is 0.931813689
+Cog diversity single max diff between [1, 3, 4] and [2, 3] is 0.963365908
+Cog diversity single max diff between [1, 3, 4] and [2, 4] is 0.963365908
+Cog diversity single max diff between [1, 3, 4] and [3, 4] is 0.923759335
+Cog diversity single max diff between [1, 3, 4] and [0, 1, 2] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [0, 1, 3] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [0, 1, 4] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [0, 2, 3] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [0, 2, 4] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [0, 3, 4] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [1, 2, 3] is 0.931813689
+Cog diversity single max diff between [1, 3, 4] and [1, 2, 4] is 0.931813689
+Cog diversity single max diff between [1, 3, 4] and [2, 3, 4] is 0.963365908
+Cog diversity single max diff between [1, 3, 4] and [0, 1, 2, 3] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [0, 1, 2, 4] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [0, 1, 3, 4] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [0, 2, 3, 4] is 1.391937337
+Cog diversity single max diff between [1, 3, 4] and [1, 2, 3, 4] is 0.931813689
+Cog diversity single max diff between [1, 3, 4] and [0, 1, 2, 3, 4] is 1.391937337
+
+	Score diversity of [1, 3, 4] against all other attribute combinations is 198.05
+
+Cog diversity single max diff between [2, 3, 4] and [0] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [1] is 0.977077545
+Cog diversity single max diff between [2, 3, 4] and [2] is 1.008629764
+Cog diversity single max diff between [2, 3, 4] and [3] is 1.067595819
+Cog diversity single max diff between [2, 3, 4] and [4] is 0.998176803
+Cog diversity single max diff between [2, 3, 4] and [0, 1] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [0, 2] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [0, 3] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [0, 4] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [1, 2] is 0.977077545
+Cog diversity single max diff between [2, 3, 4] and [1, 3] is 0.977077545
+Cog diversity single max diff between [2, 3, 4] and [1, 4] is 0.977077545
+Cog diversity single max diff between [2, 3, 4] and [2, 3] is 1.008629764
+Cog diversity single max diff between [2, 3, 4] and [2, 4] is 1.008629764
+Cog diversity single max diff between [2, 3, 4] and [3, 4] is 0.969023191
+Cog diversity single max diff between [2, 3, 4] and [0, 1, 2] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [0, 1, 3] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [0, 1, 4] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [0, 2, 3] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [0, 2, 4] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [0, 3, 4] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [1, 2, 3] is 0.977077545
+Cog diversity single max diff between [2, 3, 4] and [1, 2, 4] is 0.977077545
+Cog diversity single max diff between [2, 3, 4] and [1, 3, 4] is 0.977077545
+Cog diversity single max diff between [2, 3, 4] and [0, 1, 2, 3] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [0, 1, 2, 4] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [0, 1, 3, 4] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [0, 2, 3, 4] is 1.437201193
+Cog diversity single max diff between [2, 3, 4] and [1, 2, 3, 4] is 0.977077545
+Cog diversity single max diff between [2, 3, 4] and [0, 1, 2, 3, 4] is 1.437201193
+
+	Score diversity of [2, 3, 4] against all other attribute combinations is 203.16
+
+Cog diversity single max diff between [0, 1, 2, 3] and [0] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [1] is 2.121360728
+Cog diversity single max diff between [0, 1, 2, 3] and [2] is 2.152912947
+Cog diversity single max diff between [0, 1, 2, 3] and [3] is 2.211879002
+Cog diversity single max diff between [0, 1, 2, 3] and [4] is 2.142459986
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 1] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 2] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 3] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 4] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [1, 2] is 2.121360728
+Cog diversity single max diff between [0, 1, 2, 3] and [1, 3] is 2.121360728
+Cog diversity single max diff between [0, 1, 2, 3] and [1, 4] is 2.121360728
+Cog diversity single max diff between [0, 1, 2, 3] and [2, 3] is 2.152912947
+Cog diversity single max diff between [0, 1, 2, 3] and [2, 4] is 2.152912947
+Cog diversity single max diff between [0, 1, 2, 3] and [3, 4] is 2.113306374
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 1, 2] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 1, 3] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 1, 4] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 2, 3] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 2, 4] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 3, 4] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [1, 2, 3] is 2.121360728
+Cog diversity single max diff between [0, 1, 2, 3] and [1, 2, 4] is 2.121360728
+Cog diversity single max diff between [0, 1, 2, 3] and [1, 3, 4] is 2.121360728
+Cog diversity single max diff between [0, 1, 2, 3] and [2, 3, 4] is 2.152912947
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 1, 2, 4] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 1, 3, 4] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 2, 3, 4] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3] and [1, 2, 3, 4] is 2.121360728
+Cog diversity single max diff between [0, 1, 2, 3] and [0, 1, 2, 3, 4] is 2.581484376
+
+	Score diversity of [0, 1, 2, 3] against all other attribute combinations is 292.85
+
+Cog diversity single max diff between [0, 1, 2, 4] and [0] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [1] is 2.190779744
+Cog diversity single max diff between [0, 1, 2, 4] and [2] is 2.222331963
+Cog diversity single max diff between [0, 1, 2, 4] and [3] is 2.281298018
+Cog diversity single max diff between [0, 1, 2, 4] and [4] is 2.211879002
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 1] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 2] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 3] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 4] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [1, 2] is 2.190779744
+Cog diversity single max diff between [0, 1, 2, 4] and [1, 3] is 2.190779744
+Cog diversity single max diff between [0, 1, 2, 4] and [1, 4] is 2.190779744
+Cog diversity single max diff between [0, 1, 2, 4] and [2, 3] is 2.222331963
+Cog diversity single max diff between [0, 1, 2, 4] and [2, 4] is 2.222331963
+Cog diversity single max diff between [0, 1, 2, 4] and [3, 4] is 2.18272539
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 1, 2] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 1, 3] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 1, 4] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 2, 3] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 2, 4] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 3, 4] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [1, 2, 3] is 2.190779744
+Cog diversity single max diff between [0, 1, 2, 4] and [1, 2, 4] is 2.190779744
+Cog diversity single max diff between [0, 1, 2, 4] and [1, 3, 4] is 2.190779744
+Cog diversity single max diff between [0, 1, 2, 4] and [2, 3, 4] is 2.222331963
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 1, 2, 3] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 1, 3, 4] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 2, 3, 4] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 4] and [1, 2, 3, 4] is 2.190779744
+Cog diversity single max diff between [0, 1, 2, 4] and [0, 1, 2, 3, 4] is 2.650903392
+
+	Score diversity of [0, 1, 2, 4] against all other attribute combinations is 300.3
+
+Cog diversity single max diff between [0, 1, 3, 4] and [0] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [1] is 1.931813689
+Cog diversity single max diff between [0, 1, 3, 4] and [2] is 1.963365908
+Cog diversity single max diff between [0, 1, 3, 4] and [3] is 2.022331963
+Cog diversity single max diff between [0, 1, 3, 4] and [4] is 1.952912947
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 1] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 2] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 3] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 4] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [1, 2] is 1.931813689
+Cog diversity single max diff between [0, 1, 3, 4] and [1, 3] is 1.931813689
+Cog diversity single max diff between [0, 1, 3, 4] and [1, 4] is 1.931813689
+Cog diversity single max diff between [0, 1, 3, 4] and [2, 3] is 1.963365908
+Cog diversity single max diff between [0, 1, 3, 4] and [2, 4] is 1.963365908
+Cog diversity single max diff between [0, 1, 3, 4] and [3, 4] is 1.923759335
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 1, 2] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 1, 3] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 1, 4] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 2, 3] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 2, 4] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 3, 4] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [1, 2, 3] is 1.931813689
+Cog diversity single max diff between [0, 1, 3, 4] and [1, 2, 4] is 1.931813689
+Cog diversity single max diff between [0, 1, 3, 4] and [1, 3, 4] is 1.931813689
+Cog diversity single max diff between [0, 1, 3, 4] and [2, 3, 4] is 1.963365908
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 1, 2, 3] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 1, 2, 4] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 2, 3, 4] is 2.391937337
+Cog diversity single max diff between [0, 1, 3, 4] and [1, 2, 3, 4] is 1.931813689
+Cog diversity single max diff between [0, 1, 3, 4] and [0, 1, 2, 3, 4] is 2.391937337
+
+	Score diversity of [0, 1, 3, 4] against all other attribute combinations is 243.39
+
+Cog diversity single max diff between [0, 2, 3, 4] and [0] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [1] is 1.977077545
+Cog diversity single max diff between [0, 2, 3, 4] and [2] is 2.008629764
+Cog diversity single max diff between [0, 2, 3, 4] and [3] is 2.067595819
+Cog diversity single max diff between [0, 2, 3, 4] and [4] is 1.998176803
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 1] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 2] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 3] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 4] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [1, 2] is 1.977077545
+Cog diversity single max diff between [0, 2, 3, 4] and [1, 3] is 1.977077545
+Cog diversity single max diff between [0, 2, 3, 4] and [1, 4] is 1.977077545
+Cog diversity single max diff between [0, 2, 3, 4] and [2, 3] is 2.008629764
+Cog diversity single max diff between [0, 2, 3, 4] and [2, 4] is 2.008629764
+Cog diversity single max diff between [0, 2, 3, 4] and [3, 4] is 1.969023191
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 1, 2] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 1, 3] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 1, 4] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 2, 3] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 2, 4] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 3, 4] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [1, 2, 3] is 1.977077545
+Cog diversity single max diff between [0, 2, 3, 4] and [1, 2, 4] is 1.977077545
+Cog diversity single max diff between [0, 2, 3, 4] and [1, 3, 4] is 1.977077545
+Cog diversity single max diff between [0, 2, 3, 4] and [2, 3, 4] is 2.008629764
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 1, 2, 3] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 1, 2, 4] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 1, 3, 4] is 2.437201193
+Cog diversity single max diff between [0, 2, 3, 4] and [1, 2, 3, 4] is 1.977077545
+Cog diversity single max diff between [0, 2, 3, 4] and [0, 1, 2, 3, 4] is 2.437201193
+
+	Score diversity of [0, 2, 3, 4] against all other attribute combinations is 256.92
+
+Cog diversity single max diff between [1, 2, 3, 4] and [0] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [1] is 1.560385118
+Cog diversity single max diff between [1, 2, 3, 4] and [2] is 1.591937337
+Cog diversity single max diff between [1, 2, 3, 4] and [3] is 1.650903392
+Cog diversity single max diff between [1, 2, 3, 4] and [4] is 1.581484376
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 1] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 2] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 3] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 4] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [1, 2] is 1.560385118
+Cog diversity single max diff between [1, 2, 3, 4] and [1, 3] is 1.560385118
+Cog diversity single max diff between [1, 2, 3, 4] and [1, 4] is 1.560385118
+Cog diversity single max diff between [1, 2, 3, 4] and [2, 3] is 1.591937337
+Cog diversity single max diff between [1, 2, 3, 4] and [2, 4] is 1.591937337
+Cog diversity single max diff between [1, 2, 3, 4] and [3, 4] is 1.552330764
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 1, 2] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 1, 3] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 1, 4] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 2, 3] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 2, 4] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 3, 4] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [1, 2, 3] is 1.560385118
+Cog diversity single max diff between [1, 2, 3, 4] and [1, 2, 4] is 1.560385118
+Cog diversity single max diff between [1, 2, 3, 4] and [1, 3, 4] is 1.560385118
+Cog diversity single max diff between [1, 2, 3, 4] and [2, 3, 4] is 1.591937337
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 1, 2, 3] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 1, 2, 4] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 1, 3, 4] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 2, 3, 4] is 2.020508766
+Cog diversity single max diff between [1, 2, 3, 4] and [0, 1, 2, 3, 4] is 2.020508766
+
+	Score diversity of [1, 2, 3, 4] against all other attribute combinations is 268.5
+
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [1] is 2.560385118
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [2] is 2.591937337
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [3] is 2.650903392
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [4] is 2.581484376
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 1] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 2] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 3] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 4] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [1, 2] is 2.560385118
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [1, 3] is 2.560385118
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [1, 4] is 2.560385118
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [2, 3] is 2.591937337
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [2, 4] is 2.591937337
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [3, 4] is 2.552330764
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 1, 2] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 1, 3] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 1, 4] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 2, 3] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 2, 4] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 3, 4] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [1, 2, 3] is 2.560385118
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [1, 2, 4] is 2.560385118
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [1, 3, 4] is 2.560385118
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [2, 3, 4] is 2.591937337
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 1, 2, 3] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 1, 2, 4] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 1, 3, 4] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [0, 2, 3, 4] is 3.020508766
+Cog diversity single max diff between [0, 1, 2, 3, 4] and [1, 2, 3, 4] is 2.560385118
+
+	Score diversity of [0, 1, 2, 3, 4] against all other attribute combinations is 371.18

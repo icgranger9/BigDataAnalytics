@@ -48,12 +48,15 @@ def main():
 	singlecombos = [0,1,2,3,4]
 	for attr1 in combos:
 		diversity_sum = 0.0
+
 		for attr2 in combos:
 			if attr1 == attr2:
 				continue
 			#print "Score diversity between " + str(attr1) + " and " + str(attr2) + " is " + str(cogdiv.calculateDiversity(gazeData, attr1, attr2))
-			diversity_sum += cogdiv.calculateDiversity(gazeData, attr1, attr2)
-		print "Score diversity of " + str(attr1) + " against all other attribute combinations is " + str(round(diversity_sum, 2))
+			temp1 = cogdiv.calculateDiversity(gazeData, attr1, attr2)
+			diversity_sum += temp1[0]
+			print "Cog diversity single max diff between " + str(attr1) + " and " + str(attr2) + " is " + str(temp1[1])
+		print "\n\tScore diversity of " + str(attr1) + " against all other attribute combinations is " + str(round(diversity_sum, 2)) + "\n"
 	print ""
 	# runs score and rank total for each combinations, and neatly prints out the result.
 	for attrs in [[2]]:
